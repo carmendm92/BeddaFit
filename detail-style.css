@@ -89,3 +89,119 @@
     color: var(--color-oro);
     display: block;
 }
+
+.recipe-body {
+    background-color: var(--color-crema);
+    padding-top: 60px;
+}
+
+
+.label-gourmet {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: var(--color-oro);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.ingredient-item {
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(140, 123, 96, 0.1);
+    /* Linea bronzo chiarissima */
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+/* Il Rombo Moderno */
+.ingredient-diamond {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #8C7B60;
+    /* Cornice bronzo */
+    transform: rotate(45deg);
+    /* Diventa un rombo */
+    margin-right: 20px;
+    margin-left: 5px;
+    flex-shrink: 0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* Animazione elastica */
+    background-color: transparent;
+}
+
+.ingredient-text {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    color: var(--color-antracite);
+    transition: all 0.4s ease;
+}
+
+@media (hover: hover) {
+    .ingredient-item:hover .ingredient-diamond {
+        background-color: rgba(140, 123, 96, 0.2);
+        transform: rotate(135deg) scale(1.2);
+    }
+}
+
+.ingredient-item.is-checked .ingredient-diamond {
+    background-color: var(--color-oro);
+    transform: rotate(225deg) scale(0.8);
+    border-color: var(--color-oro);
+}
+
+.ingredient-item.is-checked .ingredient-text {
+    color: #a0a0a0;
+    opacity: 0.6;
+    transform: translateX(8px);
+    font-style: italic;
+}
+
+@media (min-width: 992px) {
+    .border-start-lg {
+        border-left: 1px solid rgba(0, 0, 0, 0.08);
+        padding-left: 60px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-method {
+        font-size: 1.00rem;
+        line-height: 1.9;
+        padding-right: 10px;
+    }
+
+    .label-gourmet {
+        margin-bottom: 20px;
+        font-size: 0.7rem;
+    }
+}
+
+.recipe-step-paragraph {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 1.9;
+    margin-bottom: 35px;
+    color: var(--color-antracite);
+    text-align: left;
+}
+
+.step-highlight {
+    font-weight: 700;
+    color: var(--color-pistacchio);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline;
+}
+
+
+@media (max-width: 768px) {
+    .recipe-step-paragraph {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+}

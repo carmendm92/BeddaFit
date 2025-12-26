@@ -115,7 +115,7 @@ h3 {
 /* header */
 .hero-section {
     padding-top: 90px;
-    min-height: 60vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;

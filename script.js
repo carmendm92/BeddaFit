@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             </div>
                         </div>
                         <div class="content-wrapper pt-4">
-                            <span class="recipe-number">RECIPE N. ${ricetta.id || i}</span>
+                            <span class="recipe-number">RICETTA N. ${ricetta.id || i}</span>
                             <h2 class="recipe-title">${ricetta.titolo || 'Senza Titolo'}</h2>
                             <p class="recipe-concept">${ricetta.concept || ''}</p>
-                            <a href="ricetta.html?id=${ricetta.id}" class="read-more">Discovery Recipe —</a>
+                            <a href="ricetta.html?id=${ricetta.id}" class="read-more">LASCIATI ISPIRARE —</a>
                         </div>
                     </div>
                 </div>`;

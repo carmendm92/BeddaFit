@@ -25,21 +25,49 @@ async function loadRecipeDetail() {
         document.getElementById('detail-concept').innerText = ricetta.concept;
 
         const ingredientsList = document.getElementById('detail-ingredients');
-        ingredientsList.innerHTML = "";
+        const rawIngredients = ricetta.ingredienti;
 
-        ricetta.ingredienti.forEach(ing => {
-            let li = document.createElement('li');
-            li.innerText = ing;
+        ingredientsList.innerHTML = '';
+
+        rawIngredients.forEach(item => {
+            const li = document.createElement('li');
+            li.className = 'ingredient-item';
+
+            li.innerHTML = `
+        <div class="ingredient-diamond"></div>
+        <span class="ingredient-text">${item}</span>
+    `;
+
+            li.addEventListener('click', () => {
+                li.classList.toggle('is-checked');
+            });
+
             ingredientsList.appendChild(li);
         });
 
-        const stepsContainer = document.getElementById('detail-steps');
-        let testo = ricetta.procedimento;
+        const methodContainer = document.getElementById('detail-steps');
+        const rawMethod = ricetta.procedimento;
 
-        // Trucco per mettere in grassetto i titoli che finiscono con i due punti ":"
-        const testoFormattato = testo.replace(/([A-Z\sÀ-Ú]+:)/g, '<strong>$1</strong>');
+        methodContainer.innerHTML = '';
 
-        stepsContainer.innerHTML = testoFormattato; // Usiamo innerHTML per leggere i <strong>
+        const paragraphs = rawMethod.split('\n\n');
+
+        paragraphs.forEach(textBlock => {
+            const p = document.createElement('p');
+            p.className = 'recipe-step-paragraph';
+
+            if (textBlock.includes(':')) {
+                const parts = textBlock.split(':');
+                const stepTitle = parts[0].trim();
+                const stepContent = parts.slice(1).join(':').trim();
+
+                p.innerHTML = `<span class="step-highlight">${stepTitle}:</span> ${stepContent}`;
+            } else {
+                p.innerText = textBlock;
+            }
+
+            methodContainer.appendChild(p);
+        });
 
     } catch (error) {
         console.error("Errore tecnico:", error);
