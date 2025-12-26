@@ -1,0 +1,189 @@
+{
+    "brand": "BeddaFit",
+    "versione_archivio": "1.1",
+    "ricettario": [
+        {
+            "id": "01",
+            "titolo": "Risotto ai Funghi porcini",
+            "subtitle": "Il classico della tradizione in chiave Fit e tecnica",
+            "categoria": "Primi Piatti",
+            "difficolta": "Media",
+            "img": "./img/risotto_funghi.jpeg",
+            "tempo_preparazione": "35 min",
+            "macros_stimati": {
+                "kcal": 380,
+                "proteine": "12g",
+                "carboidrati": "65g",
+                "grassi": "8g"
+            },
+            "concept": "L'essenza del sottobosco in una mantecatura tecnica senza grassi aggiunti",
+            "ingredienti": [
+                "Riso Carnaroli",
+                "Funghi Porcini freschi o surgelati di alta qualità",
+                "Brodo vegetale filtrato",
+                "Aglio in camicia",
+                "Prezzemolo fresco",
+                "Olio EVO a crudo"
+            ],
+            "procedimento": "LA BASE DOLCE: Cuoci i cilindri di patata in friggitrice ad aria a 200°C per circa 18 minuti. Devono risultare morbidi all’interno ma con una crosticina esterna solida.\n\nIL TOCCO PROTEICO: Scotta il filetto di tonno su una piastra rovente per circa 60 secondi per lato. Taglia poi il filetto trasversalmente per rivelarne l’interno.\n\nIL DRESSING BEDDA: Crea una mousse di avocado schiacciando la polpa con succo di lime, sale e pepe. Deve diventare una crema densa e vellutata.\n\n INGEGNERIA DEL PIATTO: Al centro del piatto, posiziona la patata come base. Adagia sopra il filetto di tonno e sormonta con la mousse di avocado.\n\nIL FINISH: Sbriciola la feta sopra l’avocado e decora con la granella di pistacchio creando dei punti luce circolari intorno alla base.",
+            "tags": [
+                "Vegetarian",
+                "CleanEating",
+                "ComfortFood"
+            ]
+        },
+        {
+            "id": "02",
+            "titolo": "Risotto alla Carbonara Light",
+            "subtitle": "Il gusto del peccato, i macro della performance",
+            "categoria": "Primi Piatti",
+            "difficolta": "Alta (per la crema)",
+            "img": "./img/risotto_carbonara.jpeg",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 440,
+                "proteine": "22g",
+                "carboidrati": "60g",
+                "grassi": "14g"
+            },
+            "concept": "Il mito di Roma reinterpretato per il benessere e la performance",
+            "ingredienti": [
+                "Riso Carnaroli o Arborio",
+                "Tuorli d'uovo pastorizzati",
+                "Guanciale croccante (privato del grasso in eccesso)",
+                "Pecorino Romano DOP",
+                "Pepe nero in grani tostato"
+            ],
+            "procedimento": {
+                "fase_1": "Rendi il guanciale croccante in padella e lascialo asciugare su carta assorbente.",
+                "fase_2": "Prepara la 'carbocrema' a bagnomaria con tuorli, pecorino e acqua di cottura.",
+                "fase_3": "Cottura del riso con brodo leggerissimo.",
+                "fase_4": "Mantecatura a fuoco spento unendo la crema d'uovo e il pepe tostato al mortaio."
+            },
+            "consiglio_beddafit": "Il segreto per non far 'impazzire' l'uovo è la temperatura: aggiungi la crema solo quando il riso è sceso sotto i 65°C, così otterrai una mantecatura setosa e non una frittata.",
+            "tags": [
+                "HighProtein",
+                "CheatMealFit",
+                "ItalianTradition"
+            ]
+        },
+        {
+            "id": "03",
+            "titolo": "Tower di Zucchine e Tacchino",
+            "subtitle": "L'equilibrio perfetto tra proteine, freschezza e croccantezza",
+            "categoria": "Piatto Unico",
+            "difficolta": "Facile",
+            "img": "./img/zucchine.jpeg",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 320,
+                "proteine": "38g",
+                "carboidrati": "12g",
+                "grassi": "8g"
+            },
+            "concept": "Leggerezza e geometria. Un'esplosione di freschezza con dressing allo yogurt",
+            "ingredienti": [
+                "2 Zucchine medie (tagliate a nastro)",
+                "2 Carote grandi (tagliate sottili con il pelapatate)",
+                "100-120g di Affettato di tacchino di alta qualità (tagliato a listarelle)",
+                "8-10 Pomodorini confit",
+                "125g di Yogurt greco bianco 0% grassi",
+                "Succo di limone e pepe nero q.b.",
+                "Erba cipollina o menta fresca"
+            ],
+            "procedimento": {
+                "fase_1": "La Base Vegetale: Salta velocemente in padella i nastri di zucchine e carote con un goccio d'acqua. Devono restare al dente per mantenere colori brillanti.",
+                "fase_2": "Il Tocco Proteico: Unisci il tacchino tagliato a listarelle sottili. Scaldalo leggermente insieme alle verdure per far amalgamare i sapori.",
+                "fase_3": "Il Dressing Bedda: Crea la salsa mescolando lo yogurt greco con succo di limone e pepe nero finché non diventa una crema fluida.",
+                "fase_4": "L'Ingegneria del Piatto: Al centro del piatto, crea una torre alternando i nastri di verdura e il tacchino, cercando di dare slancio verso l'alto.",
+                "fase_5": "Il Finish: Decora con i pomodorini confit e usa la salsa yogurt per creare dei punti luce circolari intorno alla base."
+            },
+            "consiglio_beddafit": "Per una torre più stabile e scenografica, lascia riposare le verdure saltate su carta assorbente per pochi secondi: eliminando l'umidità in eccesso, la tua torre rimarrà alta e perfetta per lo scatto.",
+            "tags": [
+                "LowCarb",
+                "HighProtein",
+                "HealthyLunch",
+                "BeddaFitOriginal"
+            ]
+        },
+        {
+            "id": "04",
+            "titolo": "Tower di Patata e Tonno Tataki",
+            "subtitle": "L’equilibrio perfetto tra proteine nobili, freschezza e croccantezza",
+            "categoria": "Gourmet Fit",
+            "difficolta": "Media",
+            "img": "./img/tonno.jpeg",
+            "tempo_preparazione": "30 min",
+            "macros_stimati": {
+                "kcal": 415,
+                "proteine": "34g",
+                "carboidrati": "29g",
+                "grassi": "16g"
+            },
+            "concept": "Contrasti cromatici e croccantezza siciliana in una struttura perfetta",
+            "ingredienti": [
+                "2 fette spesse di Patata arancione (tagliate a cilindro)",
+                "250-300g di Filetto di tonno di alta qualità (abbattuto)",
+                "1 Avocado maturo",
+                "30-40g di Feta greca originale",
+                "Granella di Pistacchio q.b.",
+                "Succo di lime o limone, pepe nero, olio EVO, sale a scaglie"
+            ],
+            "procedimento": {
+                "fase_1": "La Base Dolce: Cuoci i cilindri di Patata in airfryer a 200°C per circa 18 minuti. Devono essere solidi fuori e morbidi dentro.",
+                "fase_2": "Il Tocco Proteico: Scotta il tonno su piastra rovente 60 secondi per lato (inclusi i bordi). Il cuore deve rimanere rosso rubino.",
+                "fase_3": "Il Dressing Bedda: Prepara una mousse di avocado schiacciata con lime, sale e pepe nero.",
+                "fase_4": "L'Ingegneria del Piatto: Posiziona la batata come base, adagia il tonno tagliato trasversalmente e sormonta con la mousse di avocado.",
+                "fase_5": "Il Finish: Pioggia di feta sbriciolata e pistacchio sopra la torre e intorno alla base per creare contrasti di luce e consistenza."
+            },
+            "consiglio_beddafit": "Asciuga perfettamente il tonno prima della piastra per ottenere una reazione di Maillard perfetta e mantenere i nutrienti sigillati all'interno.",
+            "tags": [
+                "GourmetFit",
+                "Omega3",
+                "LowGI",
+                "PistacchioLover",
+                "PostWorkout"
+            ]
+        },
+        {
+            "id": "05",
+            "titolo": "Lasagne \"Oro Verde\" Light",
+            "subtitle": "L'eleganza del pistacchio incontra la leggerezza proteica",
+            "categoria": "Gourmet Series",
+            "difficolta": "Media",
+            "img": "./img/lasagne_pistacchio.jpeg",
+            "tempo_preparazione": "35 min",
+            "porzioni": 2,
+            "macros_stimati_per_porzione": {
+                "kcal": 410,
+                "proteine": "32g",
+                "carboidrati": "38g",
+                "grassi": "14g"
+            },
+            "concept": "Le lasagne come simbolo di convivialità in versione BeddaFit: leggero e bilanciato",
+            "ingredienti": [
+                "4-6 Sfoglie di lasagna sottili",
+                "250g Ricotta proteica",
+                "1 cucchiaino Pesto di pistacchio puro (senza oli)",
+                "80g Prosciutto crudo light",
+                "1 cucchiaio Granella di pistacchio siciliano",
+                "Pepe nero macinato al momento"
+            ],
+            "procedimento": [
+                "Lavorare la ricotta proteica con il pesto di pistacchio e pepe (aggiungere acqua calda se necessario).",
+                "Sbollentare le sfoglie sottili e asciugarle.",
+                "Stratificare crema di ricotta, sfoglia e roselline di prosciutto crudo.",
+                "Guarnire l'ultimo strato con granella di pistacchio.",
+                "Infornare a 200°C con funzione grill finale per bordi croccanti."
+            ],
+            "consiglio_beddafit": "Il segreto è il contrasto: la delicatezza della ricotta proteica esalta l'intensità del pistacchio, mentre la sapidità naturale del prosciutto crudo scaldata sostituisce il sale.",
+            "hashtags": [
+                "#BeddaFit",
+                "#PistacchioLover",
+                "#LasagnaLight",
+                "#GourmetFit",
+                "#SiciliaFood"
+            ]
+        }
+    ]
+}
