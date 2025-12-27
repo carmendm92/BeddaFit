@@ -20,6 +20,13 @@ async function loadRecipeDetail() {
             return;
         }
 
+        document.title = `${ricetta.titolo} | BeddaFit`;
+
+
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute("content", ricetta.concept);
+        }
         document.getElementById('detail-title').innerText = ricetta.titolo;
         document.getElementById('detail-img').src = ricetta.img;
         document.getElementById('detail-concept').innerText = ricetta.concept;

@@ -1,0 +1,112 @@
+:root {
+    /* Palette Colori */
+    --color-pistacchio: #93C572;
+    --color-oro: #D4AF37;
+    --color-antracite: #1A1A1A;
+    --color-crema: #F9F7F2;
+
+    /* Font Family */
+    --font-heading2: 'Lavishly Yours', cursive;
+    --font-heading: 'Fira sans', serif;
+    --font-body: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--color-crema);
+    color: var(--color-antracite);
+    line-height: 1.8;
+}
+
+.manifesto-header {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
+.manifesto-title {
+    font-family: var(--font-heading);
+    font-size: 8rem;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.manifesto-subtitle {
+    font-family: var(--font-heading2);
+    font-size: 1.2rem;
+    color: var(--color-oro);
+    letter-spacing: 2px;
+}
+
+.intro-paragraph::first-letter {
+    font-family: var(--font-heading2);
+    font-size: 4.5rem;
+    margin-right: 12px;
+    line-height: 1;
+    color: var(--color-oro);
+}
+
+.story-flow p {
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    margin-bottom: 1.8rem;
+    color: var(--color-antracite);
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.manifesto-footer {
+    text-align: center;
+    border-top: 1px solid rgba(140, 123, 96, 0.2);
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.signature {
+    display: block;
+    margin-top: 20px;
+    font-family: var(--font-heading2);
+    color: var(--color-oro);
+    font-size: 2rem;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .story-flow p {
+        font-size: 0.780em;
+        margin-bottom: 1.5rem;
+    }
+
+    .manifesto-header {
+        padding: 60px 20px 30px;
+    }
+
+    .manifesto-title {
+        font-size: 4rem;
+        line-height: 0.9;
+        letter-spacing: -2px;
+        margin-bottom: 15px;
+        word-wrap: break-word;
+    }
+
+    .signature {
+        margin-top: 10px;
+        font-size: 1rem;
+
+    }
+
+    .manifesto-footer {
+        padding-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    .manifesto-content {
+        padding-bottom: 20px;
+    }
+}

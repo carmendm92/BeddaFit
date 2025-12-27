@@ -8,7 +8,7 @@
             "subtitle": "Il classico della tradizione in chiave Fit e tecnica",
             "categoria": "Primi Piatti",
             "difficolta": "Media",
-            "img": "./img/risotto_funghi.jpeg",
+            "img": "./img/risotto_funghi.webp",
             "tempo_preparazione": "35 min",
             "macros_stimati": {
                 "kcal": 380,
@@ -38,7 +38,7 @@
             "subtitle": "Il gusto del peccato, i macro della performance",
             "categoria": "Primi Piatti",
             "difficolta": "Alta (per la crema)",
-            "img": "./img/risotto_carbonara.jpeg",
+            "img": "./img/risotto_carbonara.webp",
             "tempo_preparazione": "25 min",
             "macros_stimati": {
                 "kcal": 440,
@@ -68,7 +68,7 @@
             "subtitle": "L'equilibrio perfetto tra proteine, freschezza e croccantezza",
             "categoria": "Piatto Unico",
             "difficolta": "Facile",
-            "img": "./img/zucchine.jpeg",
+            "img": "./img/zucchine.webp",
             "tempo_preparazione": "20 min",
             "macros_stimati": {
                 "kcal": 320,
@@ -101,7 +101,7 @@
             "subtitle": "L’equilibrio perfetto tra proteine nobili, freschezza e croccantezza",
             "categoria": "Gourmet Fit",
             "difficolta": "Media",
-            "img": "./img/tonno.jpeg",
+            "img": "./img/tonno.webp",
             "tempo_preparazione": "30 min",
             "macros_stimati": {
                 "kcal": 415,
@@ -132,12 +132,12 @@
             "id": "05",
             "titolo": "Lasagne \"Oro Verde\" Light",
             "subtitle": "L'eleganza del pistacchio incontra la leggerezza proteica",
-            "categoria": "Gourmet Series",
+            "categoria": "Gourmet Fit",
             "difficolta": "Media",
-            "img": "./img/lasagne_pistacchio.jpeg",
+            "img": "./img/lasagne_pistacchio.webp",
             "tempo_preparazione": "35 min",
             "porzioni": 2,
-            "macros_stimati_per_porzione": {
+            "macros_stimati": {
                 "kcal": 410,
                 "proteine": "32g",
                 "carboidrati": "38g",
@@ -160,6 +160,47 @@
                 "#LasagnaLight",
                 "#GourmetFit",
                 "#SiciliaFood"
+            ]
+        },
+        {
+            "id": "06",
+            "titolo": "Merluzzo Gold & Crunch di Anacardi",
+            "subtitle": "L'incontro magico tra la dolcezza della terra, la leggerezza del mare e un crunch inaspettato.",
+            "img": "./img/merluzzo.webp",
+            "tempo_preparazione": "15 min",
+            "difficolta": "Facile",
+            "porzioni": 2,
+            "macros_stimati": {
+                "kcal": 285,
+                "proteine": "35g",
+                "carboidrati": "12g",
+                "grassi": "9g"
+            },
+            "concept": "Un piatto che celebra la luce e il benessere attraverso colori caldi e sapori puliti.",
+            "ingredienti": [
+                "400g Cuore di Merluzzo",
+                "3 Carote grandi",
+                "Zenzero fresco",
+                "Scorza di limone bio",
+                "4 cucchiai Yogurt greco 0%",
+                "Erba cipollina fresca",
+                "Succo di limone",
+                "Pepe nero",
+                "30g Anacardi al naturale",
+                "Sale",
+                "Olio EVO"
+            ],
+            "procedimento": "LA CROSTA GLOW: Grattugia le carote finemente e strizzale con forza in un canovaccio fino a renderle completamente asciutte. In una bowl, mescolale con lo zenzero grattugiato e la scorza di limone.\n\n IL TOCCO PROTEICO: Asciuga bene i tranci di merluzzo. Spennella la superficie con un velo sottilissimo di yogurt (usalo come collante) e pressa sopra il mix di carote creandone uno strato compatto e uniforme.\n\n LA COTTURA AIRFRYER: Posiziona i tranci nel cestello e cuoci a 185°C per circa 11-12 minuti. La carota dovrà risultare tostata e saporita.\n\n LA SALSA BEDDAFIT: Mentre il pesce cuoce, prepara la nostra salsa: trita finemente l’erba cipollina e uniscila allo yogurt greco con un goccio di limone e pepe nero. Allungala con un cucchiaino d’acqua se la vuoi più fluida e vellutata.\n\n IL CRUNCH: Tosta gli anacardi in padella per 2 minuti finché non diventano dorati, poi tritale grossolanamente al coltello.\n\n L’INGEGNERIA DEL PIATTO: Al centro del piatto, crea una base circolare generosa con la Salsa Yogurt all’Erba Cipollina. Adagia sopra i tranci di merluzzo dorati e completa con la pioggia di anacardi tostati.",
+            "consigli_beddafit": [
+                "Strizzare bene le carote per evitare il rilascio di acqua in cottura.",
+                "Preparare la salsa in anticipo per far infondere l'erba cipollina."
+            ],
+            "hashtags": [
+                "#BeddaFit",
+                "#CarrotGlowCod",
+                "#HealthyGourmet",
+                "#AirfryerRecipes",
+                "#FitChef"
             ]
         }
     ]
