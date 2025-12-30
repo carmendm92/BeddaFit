@@ -114,18 +114,11 @@ h3 {
 
 @media (max-width: 991px) {
     .navbar-collapse {
-        /* Sfondo solido per coprire il contenuto della pagina */
-        background-color: var(--color-antracite, #1a1a1a);
-
-        /* Padding per distanziare le voci dai bordi */
+        background-color: var(--color-antracite);
         padding: 20px;
         margin-top: 10px;
         border-radius: 8px;
-
-        /* Ombra per dare profondità sopra il contenuto */
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-
-        /* Opzionale: un bordo sottile per richiamare lo stile BeddaFit */
+        box-shadow: 0 10px 30px var(--color-antracite);
         border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
@@ -136,15 +129,13 @@ h3 {
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    /* Rimuove il bordo dall'ultimo link */
     .nav-item:last-child .nav-link {
         border-bottom: none;
     }
 
-    /* Se l'icona dell'hamburger (toggler) è scura, rendiamola chiara */
+
     .navbar-toggler {
         filter: invert(1);
-        /* Inverte i colori dell'icona se la navbar è scura */
     }
 }
 

@@ -200,3 +200,21 @@
         margin-bottom: 25px;
     }
 }
+
+.back-to-list {
+    text-decoration: none;
+    color: var(--color-oro);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.back-to-list:hover {
+    border-bottom: 1px solid var(--color-pistacchio);
+    color: var(--color-pistacchio);
+    padding-right: 10px;
+}

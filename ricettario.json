@@ -202,6 +202,47 @@
                 "#AirfryerRecipes",
                 "#FitChef"
             ]
+        },
+        {
+            "id": "07",
+            "titolo": "Chicken Gold & Pistachio Crunch",
+            "subtitle": "L'unione perfetta tra il calore della terra e la croccantezza del Mediterraneo.",
+            "img": "./img/involtini_di_pollo.webp",
+            "tempo_preparazione": "25 min",
+            "difficolta": "Media",
+            "porzioni": 2,
+            "macros_stimati": {
+                "kcal": 335,
+                "proteine": "42g",
+                "carboidrati": "18g",
+                "grassi": "10g"
+            },
+            "concept": "Un piatto che gioca sui contrasti: la morbidezza setosa della carota incontra la struttura decisa del pistacchio.",
+            "ingredienti": [
+                "4 Fettine di pollo sottili",
+                "3 Fette di formaggio proteico",
+                "4 Carote grandi",
+                "1 cucchiaio Yogurt greco 0% (per crema)",
+                "Yogurt greco q.b. (per panatura)",
+                "40g Panko o mollica grossolana",
+                "30g Granella di pistacchio",
+                "Sale",
+                "Pepe",
+                "Olio EVO"
+            ],
+            "procedimento": "LA VELLUTATA ORANGE GLOW: Taglia le carote a rondelle e falle bollire in poca acqua salata. Una volta tenere, frullale alla massima potenza con un cucchiaio di yogurt greco e un filo d'olio EVO fino a ottenere una crema perfettamente liscia e setosa.\n\n L'INGEGNERIA DEGLI INVOLTINI: Stendi le fettine di pollo e adagia su ognuna mezza fetta di formaggio proteico. Arrotola con cura stringendo bene: la precisione qui è fondamentale per mantenere il cuore all'interno.\n\n IL PONTE DI YOGURT E IL MANTO CRUNCHY: In un piatto, mescola il panko con la granella di pistacchio. Spennella l'esterno degli involtini con un velo di yogurt greco (usalo come colla proteica) e passali nel mix di panko e pistacchio, pressando bene per far aderire la crosta.\n\n LA COTTURA AIRFRYER: Posiziona gli involtini nel cestello e cuoci a 190°C per circa 10-12 minuti. La crosta deve diventare dorata e il pistacchio sprigionare il suo aroma tostato.\n\n L’UI DEL PIATTO: Crea una base circolare e generosa con la vellutata di carote calda. Adagia sopra gli involtini (tagliati a metà in diagonale). Completa con un ultimo tocco di granella di pistacchio a pioggia.",
+            "consigli_beddafit": [
+                "Passare la vellutata al setaccio per una texture da fine dining.",
+                "Asciugare bene il pollo prima di spennellare lo yogurt per una crosta più ferma."
+            ],
+            "hashtags": [
+                "#BeddaFit",
+                "#PistachioCrunch",
+                "#HealthyGourmet",
+                "#AirfryerRecipes",
+                "#ProteinCheese",
+                "#ChickenInvoltini"
+            ]
         }
     ]
 }
