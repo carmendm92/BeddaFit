@@ -1,6 +1,6 @@
 {
     "brand": "BeddaFit",
-    "versione_archivio": "1.1",
+    "versione_archivio": "1.3",
     "ricettario": [
         {
             "id": "01",
@@ -19,13 +19,16 @@
             "concept": "L'essenza del sottobosco in una mantecatura tecnica senza grassi aggiunti",
             "ingredienti": [
                 "160g di Riso Carnaroli",
-                "300gr Funghi Porcini freschi o surgelati di alta qualità",
+                "300g Funghi Porcini freschi o surgelati di alta qualità",
                 "2 cucchiai di Granella di Pistacchio (il nostro tocco siculo)",
                 "1 spicchio d’Aglio",
                 "Prezzemolo fresco qb",
                 "Pepe nero q.b."
             ],
-            "procedimento": "I FUNGHI: Inizia saltando i funghi in una padella antiaderente con uno spicchio d’aglio e un goccio d’acqua o pochissimo olio. Lasciali dorare finché non sprigionano tutto il loro profumo.\n\nLA TOSTATURA: Tosta il riso a secco in un’altra pentola. Quando i chicchi sono caldi, unisci una parte dei funghi e inizia a bagnare con l’acqua bollente.\n\nCOTTURA “CLEAN”: Porta il riso a cottura aggiungendo l’acqua gradualmente. L’amido del riso creerà naturalmente quella cremina deliziosa che vedi in foto.\n\nMANTECATURA FIT: A fuoco spento, aggiungi i restanti funghi e il prezzemolo fresco. Mescola energicamente per incorporare aria e rendere il risotto vellutato.\n\nL’IMPIATTAMENTO: Disponi il riso “a specchio”, adagia sopra i funghi interi più belli e completa con una pioggia di granella di pistacchio.",
+            "procedimento": "I FUNGHI: Inizia saltando i funghi in una padella antiaderente con uno spicchio d’aglio e un goccio d’acqua o pochissimo olio. Lasciali dorare finché non sprigianano tutto il loro profumo.\n\nLA TOSTATURA: Tosta il riso a secco in un’altra pentola. Quando i chicchi sono caldi, unisci una parte dei funghi e inizia a bagnare con l’acqua bollente.\n\nCOTTURA “CLEAN”: Porta il riso a cottura aggiungendo l’acqua gradualmente. L’amido del riso creerà naturalmente quella cremina deliziosa che vedi in foto.\n\nMANTECATURA FIT: A fuoco spento, aggiungi i restanti funghi e il prezzemolo fresco. Mescola energicamente per incorporare aria e rendere il risotto vellutato.\n\nL’IMPIATTAMENTO: Disponi il riso “a specchio”, adagia sopra i funghi interi più belli e completa con una pioggia di granella di pistacchio.",
+            "consiglio_beddafit": [
+                "Usa acqua bollente leggermente salata invece del dado per un sapore più naturale e pulito."
+            ],
             "tags": [
                 "Vegetarian",
                 "CleanEating",
@@ -37,7 +40,7 @@
             "titolo": "Risotto alla Carbonara Light",
             "subtitle": "Il gusto del peccato, i macro della performance",
             "categoria": "Primi Piatti",
-            "difficolta": "Alta (per la crema)",
+            "difficolta": "Media",
             "img": "./img/risotto_carbonara.webp",
             "tempo_preparazione": "25 min",
             "macros_stimati": {
@@ -55,7 +58,9 @@
                 "Pepe nero"
             ],
             "procedimento": "LA CROCCANTEZZA: In una padella antiaderente ben calda, scotta il prosciutto crudo light finché non diventa croccante. La sua sapidità naturale si intensificherà, rendendo superfluo il sale. Tienilo da parte.\n\nIL RISO: Tosta il riso a secco per 2 minuti per sigillare il chicco. Porta a cottura aggiungendo solo acqua bollente poco alla volta. L’amido del riso creerà la base per la nostra crema.\n\n LA “CARBO-CREMA”: In una ciotolina, unisci le uova al parmigiano e a una cascata di pepe nero. Il parmigiano darà tutto il carattere necessario al piatto.\n\nL’ALCHIMIA: A fuoco spento, versa l’emulsione di uova sul riso. Manteca velocemente: il calore del riso cuocerà l’uovo quanto basta per renderlo vellutato.\n\nIL TOCCO FINALE: Impiatta e completa con il prosciutto croccante.",
-            "consiglio_beddafit": "Il segreto per non far 'impazzire' l'uovo è la temperatura: aggiungi la crema solo quando il riso è sceso sotto i 65°C, così otterrai una mantecatura setosa e non una frittata.",
+            "consiglio_beddafit": [
+                "Il segreto per non far 'impazzire' l'uovo è la temperatura: aggiungi la crema solo quando il riso è sceso sotto i 65°C, così otterrai una mantecatura setosa e non una frittata."
+            ],
             "tags": [
                 "HighProtein",
                 "CheatMealFit",
@@ -87,7 +92,9 @@
                 "Erba cipollina o menta fresca"
             ],
             "procedimento": "LA BASE VEGETALE: Salta velocemente in una padella antiaderente i nastri di zucchine e carote con un goccio d’acqua. Devono ammorbidirsi leggermente ma restare “al dente” per mantenere i colori brillanti e le proprietà nutritive.\n\nIL TOCCO PROTEICO: Unisci il tacchino tagliato a listarelle sottili. Puoi scaldarlo leggermente insieme alle verdure per far amalgamare i sapori.\n\nIL DRESSING BEDDA: Crea la salsa mescolando lo yogurt greco con il succo di limone e il pepe. Deve diventare una crema fluida. Aggiungi erba cipollina tritata per un profumo extra.\n\n INGEGNERIA DEL PIATTO: Al centro del piatto, crea una torre alternando i nastri di verdura e il tacchino. Cerca di dare slancio verso l’alto per un effetto davvero gourmet.\n\nIL FINISH: Decora con i pomodorini confit e usa la salsa yogurt per creare dei punti luce circolari intorno alla base, proprio come nella tua foto.",
-            "consiglio_beddafit": "Per una torre più stabile e scenografica, lascia riposare le verdure saltate su carta assorbente per pochi secondi: eliminando l'umidità in eccesso, la tua torre rimarrà alta e perfetta per lo scatto.",
+            "consiglio_beddafit": [
+                "Per una torre più stabile e scenografica, lascia riposare le verdure saltate su carta assorbente per pochi secondi: eliminando l'umidità in eccesso, la tua torre rimarrà alta e perfetta per lo scatto."
+            ],
             "tags": [
                 "LowCarb",
                 "HighProtein",
@@ -119,7 +126,9 @@
                 "Succo di lime o limone, pepe nero, olio EVO, sale a scaglie"
             ],
             "procedimento": "LA BASE DOLCE: Cuoci i cilindri di patata in friggitrice ad aria a 200°C per circa 18 minuti. Devono risultare morbidi all’interno ma con una crosticina esterna solida.\n\nIL TOCCO PROTEICO: Scotta il filetto di tonno su una piastra rovente per circa 60 secondi per lato. Taglia poi il filetto trasversalmente per rivelarne l’interno.\n\nIL DRESSING BEDDA: Crea una mousse di avocado schiacciando la polpa con succo di lime, sale e pepe. Deve diventare una crema densa e vellutata.\n\n INGEGNERIA DEL PIATTO: Al centro del piatto, posiziona la patata come base. Adagia sopra il filetto di tonno e sormonta con la mousse di avocado.\n\nIL FINISH: Sbriciola la feta sopra l’avocado e decora con la granella di pistacchio creando dei punti luce circolari intorno alla base.",
-            "consiglio_beddafit": "Asciuga perfettamente il tonno prima della piastra per ottenere una reazione di Maillard perfetta e mantenere i nutrienti sigillati all'interno.",
+            "consiglio_beddafit": [
+                "Asciuga perfettamente il tonno prima della piastra per ottenere una reazione di Maillard perfetta e mantenere i nutrienti sigillati all'interno."
+            ],
             "tags": [
                 "GourmetFit",
                 "Omega3",
@@ -136,7 +145,6 @@
             "difficolta": "Media",
             "img": "./img/lasagne_pistacchio.webp",
             "tempo_preparazione": "35 min",
-            "porzioni": 2,
             "macros_stimati": {
                 "kcal": 410,
                 "proteine": "32g",
@@ -153,23 +161,25 @@
                 "Pepe nero macinato al momento"
             ],
             "procedimento": "LA BASE VERDE: In una ciotola, lavora la ricotta proteica con il cucchiaino di pesto di pistacchio e un pizzico di pepe nero. Se la crema risulta troppo densa, aggiungi un cucchiaio di acqua calda per renderla fluida come una vellutata.\n\nLE SFOGLIE: Cuoci le sfoglie sottili in acqua bollente per pochi istanti. Scolale e adagiale su un panno pulito.\n\n ARCHITETTURA DEL PIATTO: Inizia a comporre gli strati in una piccola pirofila o direttamente nei piatti per una versione decomposta gourmet. Stendi un velo di crema di ricotta, adagia la sfoglia, aggiungi il prosciutto crudo e altra crema.\n\nIL CONTRASTO: Ripeti per 3 o 4 strati. Concludi l’ultimo strato con abbondante crema di ricotta al pistacchio.\n\nIL TOCCO FINALE: Passa in forno per 5-8 minuti con funzione grill per rendere i bordi croccanti. Prima di servire, cospargi con una pioggia di granella di pistacchio per il tocco “Bedda”.",
-            "consiglio_beddafit": "Il segreto è il contrasto: la delicatezza della ricotta proteica esalta l'intensità del pistacchio, mentre la sapidità naturale del prosciutto crudo scaldata sostituisce il sale.",
-            "hashtags": [
-                "#BeddaFit",
-                "#PistacchioLover",
-                "#LasagnaLight",
-                "#GourmetFit",
-                "#SiciliaFood"
+            "consiglio_beddafit": [
+                "Il segreto è il contrasto: la delicatezza della ricotta proteica esalta l'intensità del pistacchio, mentre la sapidità naturale del prosciutto crudo scaldata sostituisce il sale."
+            ],
+            "tags": [
+                "BeddaFit",
+                "PistacchioLover",
+                "LasagnaLight",
+                "GourmetFit",
+                "SiciliaFood"
             ]
         },
         {
             "id": "06",
             "titolo": "Merluzzo Gold & Crunch di Anacardi",
             "subtitle": "L'incontro magico tra la dolcezza della terra, la leggerezza del mare e un crunch inaspettato.",
+            "categoria": "Gourmet Fit",
+            "difficolta": "Facile",
             "img": "./img/merluzzo.webp",
             "tempo_preparazione": "15 min",
-            "difficolta": "Facile",
-            "porzioni": 2,
             "macros_stimati": {
                 "kcal": 285,
                 "proteine": "35g",
@@ -190,27 +200,27 @@
                 "Sale",
                 "Olio EVO"
             ],
-            "procedimento": "LA CROSTA GLOW: Grattugia le carote finemente e strizzale con forza in un canovaccio fino a renderle completamente asciutte. In una bowl, mescolale con lo zenzero grattugiato e la scorza di limone.\n\n IL TOCCO PROTEICO: Asciuga bene i tranci di merluzzo. Spennella la superficie con un velo sottilissimo di yogurt (usalo come collante) e pressa sopra il mix di carote creandone uno strato compatto e uniforme.\n\n LA COTTURA AIRFRYER: Posiziona i tranci nel cestello e cuoci a 185°C per circa 11-12 minuti. La carota dovrà risultare tostata e saporita.\n\n LA SALSA BEDDAFIT: Mentre il pesce cuoce, prepara la nostra salsa: trita finemente l’erba cipollina e uniscila allo yogurt greco con un goccio di limone e pepe nero. Allungala con un cucchiaino d’acqua se la vuoi più fluida e vellutata.\n\n IL CRUNCH: Tosta gli anacardi in padella per 2 minuti finché non diventano dorati, poi tritale grossolanamente al coltello.\n\n L’INGEGNERIA DEL PIATTO: Al centro del piatto, crea una base circolare generosa con la Salsa Yogurt all’Erba Cipollina. Adagia sopra i tranci di merluzzo dorati e completa con la pioggia di anacardi tostati.",
-            "consigli_beddafit": [
+            "procedimento": "LA CROSTA GLOW: Grattugia le carote finemente e strizzale con forza in un canovaccio fino a renderle completamente asciutte. In una bowl, mescolale con lo zenzero grattugiato e la scorza di limone.\n\n IL TOCCO PROTEICO: Asciuga bene i tranci di merluzzo. Spennella la superficie con un velo sottilissimo di yogurt (usalo come collante) e pressa sopra il mix di carote creandone uno strato compatto e uniforme.\n\n LA COTTURA AIRFRYER: Posiziona i tranci nel cestello e cuoci a 185°C per circa 11-12 minuti. La carota dovrà risultare tostata e saporita.\n\n LA SALSA BEDDAFIT: Mentre il pesce cuoce, prepara la nostra salsa: trita finemente l’erba cipollina e uniscila allo yogurt greco con un goccio di limone e pepe nero. Allungala con un cucchiaino d’acqua se la vuoi più fluida e vellutata.\n\n IL CRUNCH: Tosta gli anacardi in padella per 2 minuti finché non diventano dorati, poi tritali grossolanamente al coltello.\n\n L’INGEGNERIA DEL PIATTO: Al centro del piatto, crea una base circolare generosa con la Salsa Yogurt all’Erba Cipollina. Adagia sopra i tranci di merluzzo dorati e completa con la pioggia di anacardi tostati.",
+            "consiglio_beddafit": [
                 "Strizzare bene le carote per evitare il rilascio di acqua in cottura.",
                 "Preparare la salsa in anticipo per far infondere l'erba cipollina."
             ],
-            "hashtags": [
-                "#BeddaFit",
-                "#CarrotGlowCod",
-                "#HealthyGourmet",
-                "#AirfryerRecipes",
-                "#FitChef"
+            "tags": [
+                "BeddaFit",
+                "CarrotGlowCod",
+                "HealthyGourmet",
+                "AirfryerRecipes",
+                "FitChef"
             ]
         },
         {
             "id": "07",
             "titolo": "Chicken Gold & Pistachio Crunch",
             "subtitle": "L'unione perfetta tra il calore della terra e la croccantezza del Mediterraneo.",
+            "categoria": "Piatto Unico",
+            "difficolta": "Media",
             "img": "./img/involtini_di_pollo.webp",
             "tempo_preparazione": "25 min",
-            "difficolta": "Media",
-            "porzioni": 2,
             "macros_stimati": {
                 "kcal": 335,
                 "proteine": "42g",
@@ -231,17 +241,17 @@
                 "Olio EVO"
             ],
             "procedimento": "LA VELLUTATA ORANGE GLOW: Taglia le carote a rondelle e falle bollire in poca acqua salata. Una volta tenere, frullale alla massima potenza con un cucchiaio di yogurt greco e un filo d'olio EVO fino a ottenere una crema perfettamente liscia e setosa.\n\n L'INGEGNERIA DEGLI INVOLTINI: Stendi le fettine di pollo e adagia su ognuna mezza fetta di formaggio proteico. Arrotola con cura stringendo bene: la precisione qui è fondamentale per mantenere il cuore all'interno.\n\n IL PONTE DI YOGURT E IL MANTO CRUNCHY: In un piatto, mescola il panko con la granella di pistacchio. Spennella l'esterno degli involtini con un velo di yogurt greco (usalo come colla proteica) e passali nel mix di panko e pistacchio, pressando bene per far aderire la crosta.\n\n LA COTTURA AIRFRYER: Posiziona gli involtini nel cestello e cuoci a 190°C per circa 10-12 minuti. La crosta deve diventare dorata e il pistacchio sprigionare il suo aroma tostato.\n\n L’UI DEL PIATTO: Crea una base circolare e generosa con la vellutata di carote calda. Adagia sopra gli involtini (tagliati a metà in diagonale). Completa con un ultimo tocco di granella di pistacchio a pioggia.",
-            "consigli_beddafit": [
+            "consiglio_beddafit": [
                 "Passare la vellutata al setaccio per una texture da fine dining.",
                 "Asciugare bene il pollo prima di spennellare lo yogurt per una crosta più ferma."
             ],
-            "hashtags": [
-                "#BeddaFit",
-                "#PistachioCrunch",
-                "#HealthyGourmet",
-                "#AirfryerRecipes",
-                "#ProteinCheese",
-                "#ChickenInvoltini"
+            "tags": [
+                "BeddaFit",
+                "PistachioCrunch",
+                "HealthyGourmet",
+                "AirfryerRecipes",
+                "ProteinCheese",
+                "ChickenInvoltini"
             ]
         }
     ]

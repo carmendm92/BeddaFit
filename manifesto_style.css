@@ -1,112 +1,98 @@
+/* 1. ROOT & BASICS */
 :root {
-    /* Palette Colori */
     --color-pistacchio: #93C572;
     --color-oro: #D4AF37;
     --color-antracite: #1A1A1A;
     --color-crema: #F9F7F2;
 
-    /* Font Family */
     --font-heading2: 'Lavishly Yours', cursive;
-    --font-heading: 'Fira sans', serif;
+    --font-heading: 'Fira Sans', serif;
     --font-body: 'Montserrat', sans-serif;
 }
 
 body {
     background-color: var(--color-crema);
     color: var(--color-antracite);
-    line-height: 1.8;
+    font-family: var(--font-body);
+    line-height: 1.9;
 }
 
+/* 2. HEADER MANIFESTO */
 .manifesto-header {
     text-align: center;
-    padding: 100px 20px 60px;
+    padding: 120px 20px 60px;
 }
 
 .manifesto-title {
     font-family: var(--font-heading);
-    font-size: 8rem;
+    font-size: clamp(3.5rem, 10vw, 8.5rem);
     font-weight: 200;
-    line-height: 1;
+    line-height: 0.9;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
 }
 
 .manifesto-subtitle {
     font-family: var(--font-heading2);
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--color-oro);
-    letter-spacing: 2px;
+}
+
+/* 3. CONTENUTO STORY */
+.manifesto-content {
+    padding-bottom: 80px;
+}
+
+.story-flow p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    text-align: left;
 }
 
 .intro-paragraph::first-letter {
     font-family: var(--font-heading2);
-    font-size: 4.5rem;
-    margin-right: 12px;
-    line-height: 1;
+    font-size: 6rem;
+    margin-right: 15px;
+    line-height: 0.7;
     color: var(--color-oro);
+    margin-top: 15px;
 }
 
-.story-flow p {
-    font-family: var(--font-body);
-    font-size: 1.15rem;
-    margin-bottom: 1.8rem;
-    color: var(--color-antracite);
-    text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-}
-
+/* 4. FIRMA INTERNA */
 .manifesto-footer {
     text-align: center;
-    border-top: 1px solid rgba(140, 123, 96, 0.2);
-    margin-top: 80px;
-    margin-bottom: 80px;
-
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    margin: 60px 0 100px;
+    padding-top: 40px;
 }
 
 .signature {
     display: block;
-    margin-top: 20px;
     font-family: var(--font-heading2);
     color: var(--color-oro);
-    font-size: 2rem;
-
+    font-size: 3.5rem;
 }
 
-
+/* 6. RESPONSIVE */
 @media (max-width: 768px) {
-
-    .story-flow p {
-        font-size: 0.780em;
-        margin-bottom: 1.5rem;
-    }
-
     .manifesto-header {
-        padding: 60px 20px 30px;
+        padding: 80px 20px 40px;
     }
 
     .manifesto-title {
-        font-size: 4rem;
-        line-height: 0.9;
-        letter-spacing: -2px;
-        margin-bottom: 15px;
-        word-wrap: break-word;
+        font-size: 3.5rem;
+    }
+
+    .story-flow p {
+        font-size: 1.05rem;
     }
 
     .signature {
-        margin-top: 10px;
-        font-size: 1rem;
-
+        font-size: 2.2rem;
     }
 
-    .manifesto-footer {
-        padding-top: 20px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-
-    }
-
-    .manifesto-content {
-        padding-bottom: 20px;
+    .bedda-footer {
+        padding: 0;
     }
 }

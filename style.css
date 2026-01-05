@@ -1,13 +1,12 @@
+/* 1. ROOT & BASICS */
 :root {
-    /* Palette Colori */
     --color-pistacchio: #93C572;
     --color-oro: #D4AF37;
     --color-antracite: #1A1A1A;
     --color-crema: #F9F7F2;
 
-    /* Font Family */
     --font-heading2: 'Lavishly Yours', cursive;
-    --font-heading: 'Fira sans', serif;
+    --font-heading: 'Fira Sans', serif;
     --font-body: 'Montserrat', sans-serif;
 }
 
@@ -18,33 +17,14 @@ body {
     line-height: 1.6;
 }
 
-h1,
-h2,
-h3 {
-    font-family: var(--font-heading);
-    color: var(--color-antracite);
-    font-weight: 700;
-}
-
-.button-cta {
-    background-color: var(--color-pistacchio);
-    font-family: var(--font-body);
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    color: var(--color-crema);
-    margin: 1px;
-    border-radius: 5px;
-}
-
-/* Nav */
+/* 2. NAVBAR (Solida) */
 .bedda-nav {
-    background-color: var(--color-antracite);
-    backdrop-filter: blur(15px);
+    background-color: var(--color-antracite) !important;
     padding: 1.0rem 0;
     height: 90px;
+    z-index: 1100;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 .logo-main {
     height: 50px;
@@ -71,82 +51,13 @@ h3 {
     color: #ffffff !important;
 }
 
-.btn-join {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff !important;
-    padding: 10px 25px !important;
-    font-size: 0.65rem !important;
-    letter-spacing: 0.4em !important;
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.btn-join:hover {
-    background: #ffffff;
-    color: #121212 !important;
-    border-color: #ffffff;
-}
-
-.custom-toggler-icon {
-    display: block;
-    width: 25px;
-    height: 1px;
-    background: #fff;
-    position: relative;
-}
-
-.custom-toggler-icon::before,
-.custom-toggler-icon::after {
-    content: "";
-    width: 25px;
-    height: 1px;
-    background: #fff;
-    position: absolute;
-    left: 0;
-}
-
-.custom-toggler-icon::before {
-    top: -8px;
-}
-
-.custom-toggler-icon::after {
-    top: 8px;
-}
-
-@media (max-width: 991px) {
-    .navbar-collapse {
-        background-color: var(--color-antracite);
-        padding: 20px;
-        margin-top: 10px;
-        border-radius: 8px;
-        box-shadow: 0 10px 30px var(--color-antracite);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .nav-link {
-        padding: 15px 0 !important;
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .nav-item:last-child .nav-link {
-        border-bottom: none;
-    }
-
-
-    .navbar-toggler {
-        filter: invert(1);
-    }
-}
-
-/* header */
+/* 3. HERO SECTION */
 .hero-section {
-    padding-top: 90px;
+    padding-top: 120px;
     min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 }
 
 .brand-logo-huge {
@@ -156,61 +67,26 @@ h3 {
     animation: fadeIn 1.5s ease-in-out;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .logo-part-1 {
     font-family: var(--font-heading2);
     font-size: clamp(5rem, 15vw, 12rem);
     font-weight: 500;
     color: var(--color-antracite);
-    text-transform: capitalize;
-    letter-spacing: 2px;
 }
 
-
 .logo-part-2 {
-    font-family: Fira Sans;
+    font-family: var(--font-heading);
     font-size: clamp(4rem, 15vw, 10rem);
     font-weight: 100;
     color: var(--color-pistacchio);
     letter-spacing: -2px;
-    display: inline-block;
 }
 
-/* card */
-.bedda-luxury-card {
-    animation: fadeIn 0.8s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.bg-dark-bedda {
-    background-color: var(--color-crema);
-}
-
+/* 4. RECIPE CARDS */
 .bedda-luxury-card {
     background: transparent;
-    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: none;
+    animation: fadeIn 0.8s ease-in-out;
 }
 
 .image-wrapper {
@@ -227,52 +103,27 @@ h3 {
     transition: all 0.8s ease;
 }
 
+.bedda-luxury-card:hover img {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+/* Macro Overlay */
 .macro-overlay {
     position: absolute;
     bottom: -100%;
     left: 0;
     width: 100%;
     height: 80px;
-    background: rgba(18, 18, 18, 0.9);
-    backdrop-filter: blur(5px);
+    background: rgba(26, 26, 26, 0.95);
     display: flex;
     align-items: center;
+    justify-content: space-around;
     transition: bottom 0.5s ease;
 }
 
 .bedda-luxury-card:hover .macro-overlay {
     bottom: 0;
-}
-
-.bedda-luxury-card:hover img {
-    transform: scale(1.05);
-    filter: grayscale(0%);
-}
-
-.recipe-number {
-    font-family: var(--font-heading);
-    letter-spacing: 0.4em;
-    font-size: 0.65rem;
-    color: #666;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.recipe-title {
-    font-family: var(--font-heading);
-    color: var(--color-antracite);
-    font-size: 1.8rem;
-    font-weight: 300;
-    margin-bottom: 15px;
-}
-
-.recipe-concept {
-    font-family: var(--font-heading);
-    color: #999;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    font-weight: 300;
 }
 
 .v-detail {
@@ -292,50 +143,72 @@ h3 {
     color: #888;
 }
 
+/* Recipe Info */
+.recipe-number {
+    font-family: var(--font-heading);
+    letter-spacing: 0.4em;
+    font-size: 0.65rem;
+    color: var(--color-oro);
+    margin: 20px 0 10px;
+    display: block;
+}
+
+.recipe-title {
+    font-family: var(--font-heading);
+    color: var(--color-antracite);
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
 .read-more {
     text-decoration: none;
-    color: var(--color-oro);
+    color: var(--color-antracite);
     font-size: 0.75rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid var(--color-oro);
     padding-bottom: 5px;
     transition: 0.3s;
 }
 
 .read-more:hover {
-    border-bottom: 1px solid var(--color-pistacchio);
     color: var(--color-pistacchio);
+    border-color: var(--color-pistacchio);
 }
 
-/* footer */
+/* 5. FOOTER */
 .bedda-footer {
     background-color: var(--color-antracite);
     padding: 100px 0 40px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    font-family: var(--font-body)
+    color: white;
 }
 
 .footer-logo {
     font-family: var(--font-heading2);
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 500;
-
+    font-size: 2.5rem;
 }
 
 .footer-logo span {
     color: var(--color-pistacchio);
-    font-weight: 300;
-    opacity: 0.8;
     font-family: var(--font-heading);
 }
 
 .footer-mission {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 1.8;
-    max-width: 320px;
+    margin: 20px 0;
+}
+
+/* Social Icons Style */
+.social-links a {
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--color-pistacchio);
 }
 
 .footer-title {
@@ -347,77 +220,36 @@ h3 {
     color: white;
 }
 
-.social-links {
-    margin-top: 25px;
-    display: flex;
-    gap: 15px;
-}
-
-.social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.social-links a:hover {
-    background-color: var(--color-antracite);
-    color: var(--color-oro);
-    transform: translateY(-5px);
-    border-color: var(--color-oro);
-}
-
 .footer-links {
     list-style: none;
     padding: 0;
-}
-
-.footer-links li {
-    margin-bottom: 15px;
 }
 
 .footer-links a {
     color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
     font-size: 0.85rem;
-    transition: all 0.4s ease;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .footer-links a:hover {
     color: var(--color-pistacchio);
-    letter-spacing: 1px;
 }
 
-.legal-link {
-    color: rgba(255, 255, 255, 0.3);
-    text-decoration: none;
-}
-
-.legal-link:hover {
-    color: var(--color-pistacchio);
-    letter-spacing: 1px;
-    transition: all 0.4s ease;
-
-}
-
+/* Newsletter */
 .newsletter-box {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
-    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
 }
 
 .newsletter-box input {
     background: transparent;
     border: none;
     color: white;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     width: 100%;
     outline: none;
 }
@@ -425,13 +257,39 @@ h3 {
 .newsletter-box button {
     background: transparent;
     border: none;
-    color: rgba(255, 255, 255, 0.2);
-    letter-spacing: 1px;
+    color: var(--color-oro);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
-.footer-bottom {
-    margin-top: 80px;
-    padding-top: 30px;
+/* Legal & Copyright */
+.copyright,
+.legal-link {
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+/* 6. ANIMATIONS & RESPONSIVE */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background-color: var(--color-antracite);
+        padding: 20px;
+        margin-top: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
 }

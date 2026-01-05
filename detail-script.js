@@ -1,10 +1,8 @@
 async function loadRecipeDetail() {
-    const queryString = window.location.search;
-
-    const urlParams = new URLSearchParams(queryString);
+    const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get('id');
+
     if (!recipeId) {
-        alert("Attenzione: nessun ID trovato nell'URL!");
         window.location.href = 'index.html';
         return;
     }
@@ -12,72 +10,100 @@ async function loadRecipeDetail() {
     try {
         const response = await fetch('ricettario.json');
         const data = await response.json();
-
         const ricetta = data.ricettario.find(r => r.id === recipeId);
 
         if (!ricetta) {
-            alert("Ricetta non trovata nel file JSON!");
+            alert("Ricetta non trovata!");
             return;
         }
 
+        // --- 1. SETTAGGI META E TITOLO PAGINA ---
         document.title = `${ricetta.titolo} | BeddaFit`;
-
-
         const metaDescription = document.querySelector('meta[name="description"]');
-        if (metaDescription) {
-            metaDescription.setAttribute("content", ricetta.concept);
-        }
-        document.getElementById('detail-title').innerText = ricetta.titolo;
-        document.getElementById('detail-img').src = ricetta.img;
-        document.getElementById('detail-concept').innerText = ricetta.concept;
+        if (metaDescription) metaDescription.setAttribute("content", ricetta.concept);
 
-        const ingredientsList = document.getElementById('detail-ingredients');
-        const rawIngredients = ricetta.ingredienti;
+        // --- 2. UTILITY PER IL POPOLAMENTO SICURO ---
+        const setElementText = (id, text) => {
+            const el = document.getElementById(id);
+            if (el) el.innerText = text || "—";
+        };
 
-        ingredientsList.innerHTML = '';
+        const setElementSrc = (id, src) => {
+            const el = document.getElementById(id);
+            if (el) el.src = src;
+        };
 
-        rawIngredients.forEach(item => {
-            const li = document.createElement('li');
-            li.className = 'ingredient-item';
+        // --- 3. POPOLAMENTO HEADER E INFO BAR ---
+        setElementText('detail-title', ricetta.titolo);
+        setElementText('detail-concept', ricetta.concept);
+        setElementSrc('detail-img', ricetta.img);
 
-            li.innerHTML = `
-        <div class="ingredient-diamond"></div>
-        <span class="ingredient-text">${item}</span>
-    `;
+        const recipeImg = document.getElementById('detail-img');
 
-            li.addEventListener('click', () => {
-                li.classList.toggle('is-checked');
+        if (recipeImg) {
+            recipeImg.onload = () => {
+                recipeImg.classList.add('loaded');
+            };
+
+            window.addEventListener('scroll', () => {
+                const scrollValue = window.scrollY;
+                // 0.0002 è un fattore di zoom quasi impercettibile, molto elegante
+                recipeImg.style.transform = `scale(${1 + scrollValue * 0.0002})`;
             });
+        }
 
-            ingredientsList.appendChild(li);
-        });
+        setElementText('detail-difficulty', ricetta.difficolta);
+        setElementText('detail-time', ricetta.tempo_preparazione);
+        setElementText('detail-tips', ricetta.consigli);
 
+        // Gestione Macro strutturati
+        const m = ricetta.macros_stimati;
+        if (m) {
+            const macrosString = `${m.kcal} Kcal | ${m.proteine} Pro | ${m.carboidrati} Carb | ${m.grassi} Gr`;
+            setElementText('detail-macros', macrosString);
+        }
+
+        // --- 4. POPOLAMENTO INGREDIENTI (Lista Interattiva) ---
+        const ingredientsList = document.getElementById('detail-ingredients');
+        if (ingredientsList && ricetta.ingredienti) {
+            ingredientsList.innerHTML = ricetta.ingredienti.map(item => `
+                <li class="ingredient-item">
+                    <div class="ingredient-diamond"></div>
+                    <span class="ingredient-text">${item}</span>
+                </li>
+            `).join('');
+
+            // Aggiungi listener per il check degli ingredienti
+            ingredientsList.querySelectorAll('.ingredient-item').forEach(li => {
+                li.addEventListener('click', () => li.classList.toggle('is-checked'));
+            });
+        }
+
+
+        // --- 5. POPOLAMENTO PROCEDIMENTO ---
         const methodContainer = document.getElementById('detail-steps');
-        const rawMethod = ricetta.procedimento;
+        if (methodContainer && ricetta.procedimento) {
+            methodContainer.innerHTML = '';
 
-        methodContainer.innerHTML = '';
+            // Dividiamo per paragrafi e formattiamo
+            ricetta.procedimento.split('\n\n').forEach(textBlock => {
+                const p = document.createElement('p');
+                p.className = 'recipe-step-paragraph';
 
-        const paragraphs = rawMethod.split('\n\n');
+                if (textBlock.includes(':')) {
+                    const [title, ...rest] = textBlock.split(':');
+                    p.innerHTML = `<span class="step-highlight">${title.trim()}:</span> ${rest.join(':').trim()}`;
+                } else {
+                    p.innerText = textBlock;
+                }
+                methodContainer.appendChild(p);
+            });
+        }
 
-        paragraphs.forEach(textBlock => {
-            const p = document.createElement('p');
-            p.className = 'recipe-step-paragraph';
-
-            if (textBlock.includes(':')) {
-                const parts = textBlock.split(':');
-                const stepTitle = parts[0].trim();
-                const stepContent = parts.slice(1).join(':').trim();
-
-                p.innerHTML = `<span class="step-highlight">${stepTitle}:</span> ${stepContent}`;
-            } else {
-                p.innerText = textBlock;
-            }
-
-            methodContainer.appendChild(p);
-        });
+        document.getElementById('detail-tips').innerText = ricetta.consiglio_beddafit;
 
     } catch (error) {
-        console.error("Errore tecnico:", error);
+        console.error("Errore nel caricamento della ricetta:", error);
     }
 }
 

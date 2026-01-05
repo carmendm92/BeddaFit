@@ -48,7 +48,7 @@
         </div>
     </nav>
 
-    <section class="recipe-detail py-5 text-white">
+    <section class="recipe-detail py-5">
         <main class="recipe-detail-cream">
 
             <header class="container text-center">
@@ -56,6 +56,21 @@
                     <div class="col-12">
                         <p id="detail-concept" class="recipe-concept-label mt-4"></p>
                         <h1 id="detail-title" class="recipe-display-title"></h1>
+                    </div>
+
+                    <div class="recipe-meta-data d-flex justify-content-center gap-4 mt-3">
+                        <div class="meta-item">
+                            <span class="label">DIFFICOLTÀ</span>
+                            <span id="detail-difficulty" class="value"></span>
+                        </div>
+                        <div class="meta-item border-start ps-4">
+                            <span class="label">MACROS (STIMATI)</span>
+                            <span id="detail-macros" class="value"></span>
+                        </div>
+                        <div class="meta-item border-start ps-4">
+                            <span class="label">TEMPO</span>
+                            <span id="detail-time" class="value"></span>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -81,7 +96,20 @@
                             <div id="detail-steps" class="text-method">
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
 
+            <section class="chef-tips-section pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="chef-tips">
+                                <h3 class="label-gourmet">IL CONSIGLIO BEDDAFIT</h3>
+                                <p id="detail-tips">
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

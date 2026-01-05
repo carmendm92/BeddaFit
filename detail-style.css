@@ -1,29 +1,26 @@
+/* 1. ROOT & BASICS */
 :root {
-    /* Palette Colori */
     --color-pistacchio: #93C572;
     --color-oro: #D4AF37;
     --color-antracite: #1A1A1A;
     --color-crema: #F9F7F2;
 
-    /* Font Family */
     --font-heading2: 'Lavishly Yours', cursive;
-    --font-heading: 'Fira sans', serif;
+    --font-heading: 'Fira Sans', serif;
     --font-body: 'Montserrat', sans-serif;
-}
 
+    html {
+        scroll-behavior: smooth;
+    }
+}
 
 .recipe-detail-cream {
     background-color: var(--color-crema);
-    color: var(--color-antracite);
     min-height: 100vh;
     font-family: var(--font-heading);
 }
 
-.back-link:hover {
-    opacity: 1;
-    color: var(--color-oro);
-}
-
+/* 2. HEADER & TITLES */
 .recipe-concept-label {
     letter-spacing: 5px;
     font-size: 0.8rem;
@@ -35,14 +32,48 @@
     font-family: var(--font-heading);
     font-size: clamp(3rem, 8vw, 5.5rem);
     font-weight: 200;
-    line-height: 1;
+    line-height: 1.1;
+    margin-bottom: 20px;
 }
 
+/* 3. INFO BAR (META DATA) */
+.recipe-meta-data {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 25px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 20px 0;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meta-item .label {
+    font-size: 0.65rem;
+    color: rgba(26, 26, 26, 0.5);
+    /* Più discreto */
+    letter-spacing: 0.15em;
+    margin-bottom: 5px;
+}
+
+.meta-item .value {
+    font-size: 0.9rem;
+    color: var(--color-oro);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* 4. IMAGE WRAPPER */
 .full-screen-img-wrapper {
     width: 100%;
-    height: 80vh;
-    margin: 40px 0;
+    height: 70vh;
     overflow: hidden;
+    position: relative;
 }
 
 .full-img {
@@ -50,51 +81,19 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: scale(1.1);
 }
 
-
-.section-title {
-    color: var(--color-pistacchio);
-    font-size: 0.75rem;
-    letter-spacing: 4px;
-    font-weight: 900;
-    margin-bottom: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-bottom: 10px;
+.full-img.loaded {
+    transform: scale(1);
 }
 
-.ingredients-list {
-    color: var(--color-pistacchio);
-    padding: 0;
-}
-
-.ingredients-list li {
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    font-size: 1.1rem;
-    color: var(--color-antracite);
-}
-
-#detail-steps {
-    font-family: var(--font-body);
-    font-size: 1 rem;
-    color: var(--color-antracite);
-    letter-spacing: 0.3px;
-    text-align: left;
-}
-
-#detail-steps strong {
-    font-family: var(--font-body);
-    font-size: 1.0rem;
-    color: var(--color-oro);
-    display: block;
-}
-
+/* 5. RECIPE CONTENT (BODY) */
 .recipe-body {
     background-color: var(--color-crema);
-    padding-top: 60px;
+    padding-top: 80px;
 }
-
 
 .label-gourmet {
     font-family: var(--font-heading);
@@ -102,18 +101,18 @@
     font-weight: 500;
     letter-spacing: 4px;
     color: var(--color-oro);
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     text-transform: uppercase;
-    opacity: 0.8;
 }
 
+/* 6. INGREDIENTS LIST */
 .ingredient-item {
     display: flex;
     align-items: center;
-    padding: 18px 0;
+    padding: 16px 0;
     border-bottom: 1px solid rgba(140, 123, 96, 0.1);
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
 }
 
 .ingredient-diamond {
@@ -125,36 +124,106 @@
     margin-left: 5px;
     flex-shrink: 0;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background-color: transparent;
 }
 
 .ingredient-text {
     font-family: var(--font-body);
-    font-size: 1.1rem;
-    color: var(--color-antracite);
-    transition: all 0.4s ease;
-}
-
-@media (hover: hover) {
-    .ingredient-item:hover .ingredient-diamond {
-        background-color: rgba(140, 123, 96, 0.2);
-        transform: rotate(135deg) scale(1.2);
-    }
+    font-size: 1.05rem;
 }
 
 .ingredient-item.is-checked .ingredient-diamond {
     background-color: var(--color-oro);
     transform: rotate(225deg) scale(0.8);
-    border-color: var(--color-oro);
 }
 
 .ingredient-item.is-checked .ingredient-text {
     color: #a0a0a0;
     opacity: 0.6;
-    transform: translateX(8px);
     font-style: italic;
+    text-decoration: line-through;
 }
 
+/* 7. PREPARATION STEPS */
+.recipe-step-paragraph {
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.step-highlight {
+    font-weight: 700;
+    color: var(--color-pistacchio);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 8. CHEF TIPS */
+
+.chef-tips-section {
+    background-color: var(--color-crema);
+}
+
+.chef-tips {
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(140, 123, 96, 0.15);
+}
+
+.chef-tips::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 50px;
+    background-image: url('./img/cappello-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-crema);
+    padding: 0 20px;
+}
+
+.chef-tips .label-gourmet {
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    color: var(--color-oro);
+}
+
+#detail-tips {
+    font-family: var(--font-body);
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.8;
+    color: var(--color-antracite);
+    opacity: 0.9;
+}
+
+/* 8. FOOTER LINK */
+.back-to-list {
+    text-decoration: none;
+    color: var(--color-oro);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    padding-bottom: 5px;
+    transition: 0.3s ease;
+}
+
+.back-to-list:hover {
+    color: var(--color-pistacchio);
+    border-color: var(--color-pistacchio);
+    padding-right: 15px;
+}
+
+
+/* 9. MEDIA QUERIES */
 @media (min-width: 992px) {
     .border-start-lg {
         border-left: 1px solid rgba(0, 0, 0, 0.08);
@@ -163,58 +232,28 @@
 }
 
 @media (max-width: 768px) {
-    .text-method {
-        font-size: 1.00rem;
-        line-height: 1.9;
-        padding-right: 10px;
+    .recipe-display-title {
+        font-size: 3.5rem;
     }
 
-    .label-gourmet {
-        margin-bottom: 20px;
-        font-size: 0.7rem;
+    .full-screen-img-wrapper {
+        height: 50vh;
     }
-}
 
-.recipe-step-paragraph {
-    font-family: var(--font-body);
-    font-size: 1.2rem;
-    line-height: 1.9;
-    margin-bottom: 35px;
-    color: var(--color-antracite);
-    text-align: left;
-}
-
-.step-highlight {
-    font-weight: 700;
-    color: var(--color-pistacchio);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    display: inline;
-}
-
-
-@media (max-width: 768px) {
     .recipe-step-paragraph {
-        font-size: 1.1rem;
-        line-height: 1.7;
-        margin-bottom: 25px;
+        font-size: 1.05rem;
+        line-height: 1.8;
+    }
+
+    .recipe-meta-data {
+        gap: 20px;
+        flex-wrap: wrap;
     }
 }
 
-.back-to-list {
-    text-decoration: none;
-    color: var(--color-oro);
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 5px;
-    transition: 0.3s;
-    display: inline-block;
-}
-
-.back-to-list:hover {
-    border-bottom: 1px solid var(--color-pistacchio);
-    color: var(--color-pistacchio);
-    padding-right: 10px;
+@media (hover: hover) {
+    .ingredient-item:hover .ingredient-diamond {
+        background-color: rgba(140, 123, 96, 0.1);
+        transform: rotate(135deg) scale(1.2);
+    }
 }
