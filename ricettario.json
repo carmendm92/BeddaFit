@@ -253,6 +253,39 @@
                 "ProteinCheese",
                 "ChickenInvoltini"
             ]
+        },
+        {
+            "id": "08",
+            "titolo": "Cubi di Riso e Mazzancolle",
+            "subtitle": "Geometria applicata e contrasti di mare in versione Gourmet",
+            "categoria": "Piatti Unici",
+            "difficolta": "Alta",
+            "img": "./img/cubi_riso_mazzancolle.webp",
+            "tempo_preparazione": "50 min",
+            "macros_stimati": {
+                "kcal": 410,
+                "proteine": "28g",
+                "carboidrati": "60g",
+                "grassi": "7g"
+            },
+            "concept": "Componenti atomici di riso tostato incontrano la freschezza del crudo su una base vellutata",
+            "ingredienti": [
+                "160g di Riso a chicco tondo (Originario o Arborio)",
+                "200g di Mazzancolle freschissime (abbattute per il crudo)",
+                "300g di Broccoli (solo cime)",
+                "Scorza di Limone grattugiata",
+                "Zenzero fresco q.b.",
+                "Olio EVO spray"
+            ],
+            "procedimento": "IL CORE (RISO): Cuoci il riso per assorbimento lasciandolo compatto. Stendilo in una teglia, pressalo livellandolo a 3cm e lascialo riposare in frigo finché non diventa un blocco solido.\n\nLA BASE (CREMA): Sbollenta i broccoli e frullali con un goccio d'acqua di cottura e zenzero fino a ottenere una crema liscissima color Pistacchio Gourmet.\n\nENGINEERING DEL CUBO: Taglia il riso in cubi perfetti con un coltello bagnato. Tostali in padella rovente o airfryer con un velo d'olio spray finché ogni faccia non è dorata e croccante.\n\nIL TOPPING: Prepara le mazzancolle. Puoi scottarne metà e tritare le restanti al coltello per creare delle quenelle crude marinate con limone e pepe.\n\nL'IMPIATTAMENTO: Traccia una striscia netta di crema di broccoli sul piatto (layout lineare). Adagia sopra i cubi di riso e completa ogni componente con la mazzancolla o la quenelle.",
+            "consiglio_beddafit": [
+                "Il riposo del riso in frigo è fondamentale: la retrogradazione dell'amido rende il cubo stabile e lo shock termico in padella lo rende extra crunch."
+            ],
+            "tags": [
+                "HighProtein",
+                "FoodGeometry",
+                "GourmetExperience"
+            ]
         }
     ]
 }
