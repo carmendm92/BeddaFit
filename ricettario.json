@@ -286,6 +286,41 @@
                 "FoodGeometry",
                 "GourmetExperience"
             ]
+        },
+        {
+            "id": "09",
+            "titolo": "Rose d'Inverno su Pilastri di Carota",
+            "subtitle": "Architettura della spirale e contrasti termici in versione Fit-Gourmet",
+            "categoria": "Secondi Piatti",
+            "difficolta": "Media",
+            "img": "./img/rose_pollo_carote.webp",
+            "tempo_preparazione": "35 min",
+            "macros_stimati": {
+                "kcal": 370,
+                "proteine": "61g",
+                "carboidrati": "6g",
+                "grassi": "11g"
+            },
+            "concept": "Moduli a spirale di pollo e prosciutto elevati su basi di carota glassata alla paprika, bilanciati da drops di yogurt acido",
+            "ingredienti": [
+                "300g di Fettine di pollo (taglio sottile)",
+                "80g di Prosciutto cotto (sgrassato)",
+                "4 fette di Formaggio proteico",
+                "2 Carote grandi (per le rondelle strutturali)",
+                "150g di Yogurt greco bianco 0% grassi",
+                "Paprika dolce o affumicata, Sale e Pepe q.b.",
+                "Micro-foglie di radicchio per la decorazione",
+                "Olio EVO spray"
+            ],
+            "procedimento": "L’INGEGNERIA DELLA ROSA: Rifila le fettine di pollo in rettangoli regolari. Stratifica con prosciutto cotto e formaggio proteico. Arrotola partendo dalla base e allargando la cima per l'effetto petalo. Blocca il centro con uno spiedino.\n\nI PILASTRI AROMATICI: Taglia le carote a rondelle spesse (2cm). Tostale in padella con olio, sale e paprika finché non sono abbrustolite. Aggiungi un goccio d'acqua e copri per terminare la cottura rendendole morbide al cuore.\n\nLA COTTURA (AIRFRYER): Adagia le rose nel cestello, nebulizza con olio spray solo sui bordi. Cuoci a 190°C per 10-12 minuti fino a ottenere una doratura croccante e il cuore filante.\n\nIL DRESSING: Lavora lo yogurt greco con sale e pepe fino a renderlo fluido e lucido.\n\nL’IMPIATTAMENTO: Posiziona le rondelle di carota sul piatto bianco in modo geometrico. Adagia sopra ogni 'pilastro' una rosa di pollo. Completa con drops di yogurt simmetrici e micro-foglie di radicchio per il contrasto cromatico.",
+            "consiglio_beddafit": [
+                "Il formaggio proteico ha un punto di fusione ideale per questa ricetta: mantiene la struttura della rosa senza colare eccessivamente, garantendo un'estetica pulita e un macro-bilanciamento perfetto."
+            ],
+            "tags": [
+                "HighProtein",
+                "AirfryerTech",
+                "MinimalistPlating"
+            ]
         }
     ]
 }
