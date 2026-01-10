@@ -1,0 +1,59 @@
+:root {
+    --color-pistacchio: #93C572;
+    --color-oro: #D4AF37;
+    --color-antracite: #1A1A1A;
+    --color-crema: #F9F7F2;
+
+    --font-heading2: 'Lavishly Yours', cursive;
+    --font-heading: 'Fira Sans', serif;
+    --font-body: 'Montserrat', sans-serif;
+}
+
+/* Container dell'header */
+.category-header {
+    padding: 150px 20px 60px;
+    /* Più spazio sopra per la navbar, spazio sotto per la griglia */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-crema);
+    /* O il colore di sfondo che preferisci */
+}
+
+/* Sottotitolo (THE COLLECTION / EQUILIBRIO DINAMICO) */
+.recipe-concept-label {
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    color: var(--color-oro);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Titolo principale (PRIMI / SECONDI / ecc) */
+.recipe-display-title {
+    font-family: var(--font-heading);
+    /* Assicurati che punti al font corretto */
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 200;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--color-antracite);
+}
+
+/* Descrizione */
+.recipe-concept {
+    max-width: 650px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(26, 26, 26, 0.8);
+    margin: 0 auto;
+}
+
+/* Media Query per Mobile */
+@media (max-width: 768px) {
+    .category-header {
+        padding-top: 100px;
+        /* Riduciamo lo spazio su mobile */
+    }
+}

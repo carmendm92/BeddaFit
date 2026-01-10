@@ -206,19 +206,19 @@
 
 /* 8. FOOTER LINK */
 .back-to-list {
+    color: var(--color-pistacchio);
     text-decoration: none;
-    color: var(--color-oro);
     font-size: 0.8rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    border-bottom: 1px solid var(--color-pistacchio);
     padding-bottom: 5px;
     transition: 0.3s ease;
 }
 
 .back-to-list:hover {
-    color: var(--color-pistacchio);
-    border-color: var(--color-pistacchio);
+    color: var(--color-oro);
+    border-color: 1px solid rgba(212, 175, 55, 0.3);
     padding-right: 15px;
 }
 

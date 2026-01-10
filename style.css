@@ -51,6 +51,50 @@ body {
     color: #ffffff !important;
 }
 
+/* Container del menu a tendina */
+.dropdown-menu {
+    background-color: var(--color-antracite);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    margin-top: 15px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+/* Stile delle singole voci */
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 0.75rem;
+
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+/* Hover sulle voci del menu */
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff !important;
+    padding-left: 30px;
+}
+
+
+.dropdown-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+}
+
+/* Colore oro per il link attivo */
+.nav-link.active,
+.dropdown-item.active {
+    color: var(--color-oro) !important;
+    font-weight: 700 !important;
+    background-color: transparent !important;
+}
+
 /* 3. HERO SECTION */
 .hero-section {
     padding-top: 120px;
@@ -162,18 +206,37 @@ body {
 
 .read-more {
     text-decoration: none;
-    color: var(--color-antracite);
-    font-size: 0.75rem;
+    color: var(--color-oro);
+    font-size: 0.8rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--color-oro);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
     padding-bottom: 5px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .read-more:hover {
     color: var(--color-pistacchio);
     border-color: var(--color-pistacchio);
+    padding-right: 15px;
+
+}
+
+.go-to {
+    text-decoration: none;
+    color: var(--color-pistacchio);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-pistacchio);
+    padding-bottom: 5px;
+    transition: 0.3s ease;
+}
+
+.go-to:hover {
+    color: var(--color-oro);
+    border-color: var(--color-oro);
+    padding-right: 15px;
 }
 
 /* 5. FOOTER */
@@ -291,5 +354,10 @@ body {
         padding: 20px;
         margin-top: 10px;
         border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
     }
 }
