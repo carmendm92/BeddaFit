@@ -7,7 +7,6 @@ async function loadRecipes() {
         if (!response.ok) throw new Error('Errore nel caricamento del file JSON');
 
         const data = await response.json();
-
         let ricette = data.ricettario || [];
 
         if (ricette.length === 0) {
@@ -16,11 +15,9 @@ async function loadRecipes() {
         }
 
         ricette.sort((a, b) => parseInt(b.id) - parseInt(a.id));
-
         const ultimeTre = ricette.slice(0, 3);
 
         let htmlContent = "";
-
         ultimeTre.forEach((ricetta) => {
             const proteins = ricetta.macros_stimati?.proteine || '0g';
             const kcal = ricetta.macros_stimati?.kcal || '0';
@@ -59,34 +56,70 @@ async function loadRecipes() {
 }
 
 function updateNavbar() {
-    const currentPath = window.location.pathname; // es: /manifesto.html
-    const currentSearch = window.location.search; // es: ?type=primi
+    const currentPath = window.location.pathname;
+    const currentSearch = window.location.search;
     const navLinks = document.querySelectorAll('.nav-link, .dropdown-item');
 
     navLinks.forEach(link => {
         link.classList.remove('active');
         const href = link.getAttribute('href');
-
         if (!href || href === '#') return;
 
-        // --- 1. LOGICA PER CATEGORIE (con parametri) ---
         if (currentSearch && href.includes(currentSearch)) {
             link.classList.add('active');
-            // Accendi il menu "Ricette" se siamo in una sottocategoria
             const parent = link.closest('.dropdown');
             if (parent) {
                 const toggle = parent.querySelector('.dropdown-toggle');
                 if (toggle) toggle.classList.add('active');
             }
-        }
-
-        // --- 2. LOGICA PER PAGINE STATICHE (Home, Manifesto, etc.) ---
-        // Controlla se il percorso attuale termina con il nome del file nel link
-        else if (!currentSearch && currentPath.endsWith(href.replace('./', ''))) {
+        } else if (!currentSearch && currentPath.endsWith(href.replace('./', ''))) {
             link.classList.add('active');
         }
     });
 }
 
-document.addEventListener('DOMContentLoaded', updateNavbar);
-document.addEventListener('DOMContentLoaded', loadRecipes);
+// --- LOGICA COOKIE BANNER AUTOMATICO BEDDAFIT ---
+function handleCookieBanner() {
+    if (localStorage.getItem("bedda-cookie-accepted")) return;
+
+
+    const bannerContainer = document.createElement('div');
+    bannerContainer.id = "cookie-banner";
+
+    bannerContainer.innerHTML = `
+        <div id="container-banner">
+            <p>
+                Utilizziamo i cookie per assicurarti la migliore esperienza culinaria sul nostro sito. 
+                <a href="https://www.iubenda.com/privacy-policy/79120979/cookie-policy" target="_blank" id="button-cookie">Leggi la policy</a>
+            </p>
+            <button id="close-cookie">ACCETTA</button>
+        </div>
+    `;
+
+    document.body.appendChild(bannerContainer);
+
+    setTimeout(() => {
+        bannerContainer.style.display = "block";
+        setTimeout(() => {
+            bannerContainer.style.opacity = "1";
+            bannerContainer.style.transform = "translateX(-50%) translateY(0)";
+        }, 50);
+    }, 300);
+
+    document.getElementById("close-cookie").addEventListener("click", function () {
+        localStorage.setItem("bedda-cookie-accepted", "true");
+
+        bannerContainer.style.opacity = "0";
+        bannerContainer.style.transform = "translateX(-50%) translateY(10px)";
+
+        setTimeout(() => {
+            bannerContainer.remove();
+        }, 600);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateNavbar();
+    loadRecipes();
+    handleCookieBanner();
+});
