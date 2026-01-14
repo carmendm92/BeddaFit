@@ -1,9 +1,9 @@
-/**
- * BeddaFit - Script Unico per Categorie e Ricettario Completo
- */
-
 // 1. Configurazione testi per l'Header (Personalizzabili)
 const infoCategorie = {
+    "antipasti": {
+        subtitle: "L’ARCHITETTURA DELL’ACCOGLIENZA",
+        desc: "Moduli di design gastronomico progettati per stimolare il palato senza appesantire."
+    },
     "primi": {
         subtitle: "EQUILIBRIO DINAMICO",
         desc: "Architetture di cereali e grani antichi. La base energetica per il tuo design quotidiano."

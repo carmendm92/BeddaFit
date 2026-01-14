@@ -321,6 +321,39 @@
                 "AirfryerTech",
                 "MinimalistPlating"
             ]
+        },
+        {
+            "id": "10",
+            "titolo": "Tris di cannoli integrali",
+            "subtitle": "Geometria di mousse proteiche in scrigni di piadina tostata",
+            "categoria": "Antipasti",
+            "difficolta": "Media",
+            "img": "./img/tris_di_cannoli_integrali.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 242,
+                "proteine": "14g",
+                "carboidrati": "32g",
+                "grassi": "5g"
+            },
+            "concept": "De-costruzione del cannolo tradizionale: piadina integrale modellata in cilindri croccanti e farcita con una trilogia di mousse alla ricotta (limone, spinaci e datterino)",
+            "ingredienti": [
+                "3 Piadine integrali (sottili, da modellare)",
+                "200g di Ricotta proteica",
+                "80g di Spinaci freschi",
+                "5-6 Pomodorini datterini freschi",
+                "Scorza e succo di un limone biologico",
+                "Noce moscata, Sale e Pepe q.b."
+            ],
+            "procedimento": "L'INGEGNERIA DEL CILINDRO: Taglia le 3 piadine a cerchio. Avvolgile attorno a stampi cilindrici e sigilla il lembo finale con un goccio d'acqua, premendo bene per fissare la forma. Cuoci in Airfryer a 180°C per 5-6 minuti finché la struttura non è ambrata e rigida. Sfila gli stampi con delicatezza mentre sono ancora tiepidi.\n\nPREPARAZIONE DEGLI ELEMENTI: In un pentolino, cuoci gli spinaci con un filo d'acqua, sale e noce moscata; una volta pronti, strizzali accuratamente per eliminare ogni residuo liquido e tritale finemente. In una padella a parte, scotta i datterini con sale e un goccio d'acqua finché non appassiscono; rimuovi le bucce per ottenere una polpa liscia e concentrata.\n\nIL LABORATORIO DELLE MOUSSE: Dividi i 200g di ricotta in tre bowl. BOWL BIANCA: lavora la ricotta con un tocco di succo di limone per la nota acida. BOWL SMERALDO: incorpora gli spinaci insaporiti alla noce moscata. BOWL SUNSET: amalgama la riduzione di datterino per una crema dolce-salata.\n\nESTRUSIONE DEL RIPIENO: Utilizza una sac-à-poche per farcire i cilindri di piadina. Con 200g di ricotta su 3 piadine, la farcitura sarà più bilanciata e meno densa, garantendo una perfetta proporzione tra croccantezza e crema.\n\nL'IMPIATTAMENTO: Disponi i cannoli in diagonale su un piatto bianco con texture a rilievo. Completa il cannolo bianco con la scorza di limone grattugiata solo alla fine, per sprigionare l'aroma agrumato al momento del servizio.",
+            "consiglio_beddafit": [
+                "Utilizzare 3 piadine permette di creare una proporzione perfetta tra la parte 'bread' e il cuore cremoso. Ricorda di cuocere gli spinaci con la noce moscata: questo passaggio trasforma la ricotta proteica in una mousse gourmet dal profilo sensoriale complesso."
+            ],
+            "tags": [
+                "CrunchyTexture",
+                "LowFat",
+                "FoodGeometry"
+            ]
         }
     ]
 }
