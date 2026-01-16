@@ -1,3 +1,9 @@
+/**
+ * BEDDAFIT - Core Script
+ * Gestisce: Caricamento Ricette, Navbar Active State e Cookie Banner
+ */
+
+// 1. CARICAMENTO RICETTE (Ultime 3 Novità)
 async function loadRecipes() {
     const grid = document.getElementById('recipe-grid');
     if (!grid) return;
@@ -14,6 +20,7 @@ async function loadRecipes() {
             return;
         }
 
+        // Ordina per ID decrescente e prendi le ultime 3
         ricette.sort((a, b) => parseInt(b.id) - parseInt(a.id));
         const ultimeTre = ricette.slice(0, 3);
 
@@ -50,11 +57,12 @@ async function loadRecipes() {
         grid.innerHTML = htmlContent;
 
     } catch (error) {
-        console.error("BeddaFit Error:", error);
+        console.error("BeddaFit Error (Recipes):", error);
         grid.innerHTML = `<p class="text-center">Errore tecnico: ${error.message}</p>`;
     }
 }
 
+// 2. GESTIONE NAVBAR (Stato Active)
 function updateNavbar() {
     const currentPath = window.location.pathname;
     const currentSearch = window.location.search;
@@ -78,47 +86,61 @@ function updateNavbar() {
     });
 }
 
-// --- LOGICA COOKIE BANNER AUTOMATICO BEDDAFIT ---
+// 3. LOGICA COOKIE BANNER (GDPR Compliant)
 function handleCookieBanner() {
-    if (localStorage.getItem("bedda-cookie-accepted")) return;
+    const storageKey = "bedda-cookie-choice";
 
+    // Controlla se l'utente ha già fatto una scelta
+    if (localStorage.getItem(storageKey)) {
+        console.log("Cookie Banner: Scelta già effettuata, non mostro nulla.");
+        return;
+    }
 
+    // Creazione elemento banner
     const bannerContainer = document.createElement('div');
     bannerContainer.id = "cookie-banner";
 
     bannerContainer.innerHTML = `
+        <button id="close-x" aria-label="Chiudi">&times;</button>
         <div id="container-banner">
             <p>
-                Utilizziamo i cookie per assicurarti la migliore esperienza culinaria sul nostro sito. 
-                <a href="https://www.iubenda.com/privacy-policy/79120979/cookie-policy" target="_blank" id="button-cookie">Leggi la policy</a>
+                Utilizziamo i cookie per assicurarti la migliore esperienza culinaria su <strong>BeddaFit</strong>. 
+                Puoi accettarli tutti o continuare con i soli tecnici necessari.
+                <a href="https://www.iubenda.com/privacy-policy/79120979/cookie-policy" target="_blank">Leggi la policy</a>
             </p>
-            <button id="close-cookie">ACCETTA</button>
+            <div class="banner-buttons">
+                <button id="necessary-cookie" class="btn-secondary">SOLO NECESSARI</button>
+                <button id="accept-cookie" class="btn-primary">ACCETTA TUTTI</button>
+            </div>
         </div>
     `;
 
     document.body.appendChild(bannerContainer);
+    console.log("Cookie Banner: Inserito nel DOM.");
 
+    // Animazione entrata (ritardata per fluidità)
     setTimeout(() => {
-        bannerContainer.style.display = "block";
-        setTimeout(() => {
-            bannerContainer.style.opacity = "1";
-            bannerContainer.style.transform = "translateX(-50%) translateY(0)";
-        }, 50);
+        bannerContainer.classList.add('show');
     }, 300);
 
-    document.getElementById("close-cookie").addEventListener("click", function () {
-        localStorage.setItem("bedda-cookie-accepted", "true");
+    // Funzione per chiudere e salvare
+    const closeBanner = (choice) => {
+        localStorage.setItem(storageKey, choice);
+        bannerContainer.classList.remove('show');
+        setTimeout(() => bannerContainer.remove(), 600);
+        console.log(`Cookie Banner: Scelta salvata -> ${choice}`);
+    };
 
-        bannerContainer.style.opacity = "0";
-        bannerContainer.style.transform = "translateX(-50%) translateY(10px)";
-
-        setTimeout(() => {
-            bannerContainer.remove();
-        }, 600);
-    });
+    // Eventi sui bottoni (assegnati solo dopo l'inserimento nel DOM)
+    document.getElementById("accept-cookie").onclick = () => closeBanner("accepted");
+    document.getElementById("necessary-cookie").onclick = () => closeBanner("necessary");
+    document.getElementById("close-x").onclick = () => closeBanner("closed-x");
 }
 
+// --- AVVIO COORDINATO ---
+// Aspetta che il DOM sia caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("BeddaFit: DOM pronto, avvio funzioni...");
     updateNavbar();
     loadRecipes();
     handleCookieBanner();

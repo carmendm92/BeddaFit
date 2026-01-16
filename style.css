@@ -375,7 +375,8 @@ body {
 /* Banner Cookie*/
 
 #cookie-banner {
-    display: none;
+    display: block;
+    /* Gestito dall'opacità e dal JS */
     opacity: 0;
     position: fixed;
     bottom: 30px;
@@ -384,15 +385,43 @@ body {
     width: 90%;
     max-width: 500px;
     background: rgba(33, 37, 41, 0.85);
+    /* Il tuo Antracite trasparente */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     color: var(--color-crema);
-    padding: 25px;
+    padding: 35px 25px 25px;
+    /* Più spazio sopra per la X */
     border-radius: 20px;
     z-index: 10000;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+    /* Evita click quando invisibile */
+}
+
+#cookie-banner.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
+}
+
+/* La tua X in alto a destra */
+#close-x {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: var(--color-crema);
+    opacity: 0.5;
+    font-size: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#close-x:hover {
+    opacity: 1;
 }
 
 #container-banner {
@@ -412,7 +441,8 @@ body {
     letter-spacing: 0.3px;
 }
 
-#button-cookie {
+/* Link policy nel testo */
+#container-banner a {
     color: var(--color-pistacchio);
     text-decoration: none;
     border-bottom: 1px solid rgba(147, 197, 114, 0.4);
@@ -420,11 +450,20 @@ body {
     margin-left: 5px;
 }
 
-#close-cookie {
+/* Griglia pulsanti */
+.banner-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Tasto Accetta (il tuo stile originale) */
+.btn-primary {
     background: var(--color-pistacchio);
     color: var(--color-antracite);
     border: none;
-    padding: 12px 40px;
+    padding: 12px 30px;
     border-radius: 50px;
     font-weight: 700;
     font-size: 0.75rem;
@@ -434,10 +473,29 @@ body {
     transition: all 0.3s ease;
 }
 
-#close-cookie:hover {
-    background: var(--color-pistacchio);
+.btn-primary:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(147, 197, 114, 0.3);
+}
+
+/* Tasto Solo Necessari (versione "light" del tuo stile) */
+.btn-secondary {
+    background: transparent;
+    color: var(--color-crema);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--color-crema);
 }
 
 /* 6. ANIMATIONS & RESPONSIVE */
