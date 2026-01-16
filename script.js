@@ -1,8 +1,3 @@
-/**
- * BEDDAFIT - Core Script
- * Gestisce: Caricamento Ricette, Navbar Active State e Cookie Banner
- */
-
 // 1. CARICAMENTO RICETTE (Ultime 3 Novità)
 async function loadRecipes() {
     const grid = document.getElementById('recipe-grid');
@@ -30,12 +25,15 @@ async function loadRecipes() {
             const kcal = ricetta.macros_stimati?.kcal || '0';
             const carbs = ricetta.macros_stimati?.carboidrati || '0g';
             const recipeId = ricetta.id;
+            const titoloRicetta = ricetta.titolo || 'Ricetta Fit'; // Fallback per SEO
 
             htmlContent += `
             <div class="col-md-6 col-lg-4">
                 <div class="bedda-luxury-card">
                     <div class="image-wrapper">
-                        <img src="${ricetta.img || './img/placeholder.jpg'}" alt="${ricetta.titolo}">
+                        <img src="${ricetta.img || './img/placeholder.jpg'}" 
+                             alt="${titoloRicetta} - BeddaFit Ricetta Healthy Luxury">
+                        
                         <div class="macro-overlay">
                             <div class="d-flex justify-content-around w-100">
                                 <div class="v-detail"><span>${proteins}</span><small>PRO</small></div>
@@ -46,7 +44,7 @@ async function loadRecipes() {
                     </div>
                     <div class="recipe-info-box">
                         <span class="recipe-number">L'ULTIMA NOVITÀ — N. ${recipeId}</span>
-                        <h2 class="recipe-title">${ricetta.titolo || 'Senza Titolo'}</h2>
+                        <h2 class="recipe-title">${titoloRicetta}</h2>
                         <p class="recipe-concept">${ricetta.concept || ''}</p>
                         <a href="ricetta.html?id=${recipeId}" class="read-more">SCOPRI IL DESIGN —</a>
                     </div>
@@ -73,15 +71,21 @@ function updateNavbar() {
         const href = link.getAttribute('href');
         if (!href || href === '#') return;
 
+        const cleanHref = href.replace('./', '');
+
         if (currentSearch && href.includes(currentSearch)) {
             link.classList.add('active');
+        } else if (!currentSearch && (currentPath.endsWith(cleanHref) || (currentPath === '/' && cleanHref === 'index.html'))) {
+            link.classList.add('active');
+        }
+
+        // Gestione attivazione dropdown padre
+        if (link.classList.contains('active')) {
             const parent = link.closest('.dropdown');
             if (parent) {
                 const toggle = parent.querySelector('.dropdown-toggle');
                 if (toggle) toggle.classList.add('active');
             }
-        } else if (!currentSearch && currentPath.endsWith(href.replace('./', ''))) {
-            link.classList.add('active');
         }
     });
 }
@@ -90,13 +94,11 @@ function updateNavbar() {
 function handleCookieBanner() {
     const storageKey = "bedda-cookie-choice";
 
-    // Controlla se l'utente ha già fatto una scelta
     if (localStorage.getItem(storageKey)) {
-        console.log("Cookie Banner: Scelta già effettuata, non mostro nulla.");
+        console.log("Cookie Banner: Scelta già effettuata.");
         return;
     }
 
-    // Creazione elemento banner
     const bannerContainer = document.createElement('div');
     bannerContainer.id = "cookie-banner";
 
@@ -116,29 +118,24 @@ function handleCookieBanner() {
     `;
 
     document.body.appendChild(bannerContainer);
-    console.log("Cookie Banner: Inserito nel DOM.");
 
-    // Animazione entrata (ritardata per fluidità)
     setTimeout(() => {
         bannerContainer.classList.add('show');
     }, 300);
 
-    // Funzione per chiudere e salvare
     const closeBanner = (choice) => {
         localStorage.setItem(storageKey, choice);
         bannerContainer.classList.remove('show');
         setTimeout(() => bannerContainer.remove(), 600);
-        console.log(`Cookie Banner: Scelta salvata -> ${choice}`);
     };
 
-    // Eventi sui bottoni (assegnati solo dopo l'inserimento nel DOM)
+    // Eventi
     document.getElementById("accept-cookie").onclick = () => closeBanner("accepted");
     document.getElementById("necessary-cookie").onclick = () => closeBanner("necessary");
     document.getElementById("close-x").onclick = () => closeBanner("closed-x");
 }
 
 // --- AVVIO COORDINATO ---
-// Aspetta che il DOM sia caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', () => {
     console.log("BeddaFit: DOM pronto, avvio funzioni...");
     updateNavbar();

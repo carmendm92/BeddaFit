@@ -1,22 +1,26 @@
-// 1. Configurazione testi per l'Header (Personalizzabili)
 const infoCategorie = {
     "antipasti": {
+        title: "ANTIPASTI",
         subtitle: "L’ARCHITETTURA DELL’ACCOGLIENZA",
         desc: "Moduli di design gastronomico progettati per stimolare il palato senza appesantire."
     },
     "primi": {
+        title: "PRIMI PIATTI",
         subtitle: "EQUILIBRIO DINAMICO",
         desc: "Architetture di cereali e grani antichi. La base energetica per il tuo design quotidiano."
     },
     "secondi": {
+        title: "SECONDI PIATTI",
         subtitle: "STRUTTURE NOBILI",
         desc: "L'essenza della materia prima. Forme ricercate e tecniche di cottura avanzate."
     },
     "contorni": {
+        title: "CONTORNI",
         subtitle: "GEOMETRIE VEGETALI",
         desc: "L'estetica del mondo vegetale. Contrasti di texture per elevare ogni composizione."
     },
     "all": {
+        title: "IL RICETTARIO",
         subtitle: "L'ARCHIVIO",
         desc: "La collezione completa delle creazioni BeddaFit: l'unione tra estetica e nutrizione."
     }
@@ -28,63 +32,60 @@ async function loadCategory() {
     const subtitleEl = document.getElementById('category-subtitle');
     const descEl = document.getElementById('category-description');
 
-    // Recupera il parametro dall'URL (es. ?type=secondi o ?type=all)
     const params = new URLSearchParams(window.location.search);
-    const categoryQuery = params.get('type');
-
-    // Se non c'è parametro, torna alla Home
-    if (!categoryQuery) {
-        window.location.href = 'index.html';
-        return;
-    }
-
+    const categoryQuery = params.get('type') || 'all';
     const key = categoryQuery.toLowerCase();
 
-    // --- AGGIORNAMENTO TESTI ---
-    const info = infoCategorie[key] || { subtitle: "COLLECTION", desc: "Esplora il gusto fit." };
+    // --- 1. AGGIORNAMENTO TESTI & SEO ---
+    const info = infoCategorie[key] || infoCategorie['all'];
 
-    if (titleEl) titleEl.innerText = (key === 'all') ? "IL RICETTARIO" : key.toUpperCase();
+    if (titleEl) titleEl.innerText = info.title;
     if (subtitleEl) subtitleEl.innerText = info.subtitle;
     if (descEl) descEl.innerText = info.desc;
 
+    // Aggiornamento Title Tag e Meta Description per SEO
+    document.title = `${info.title} | BeddaFit Healthy Luxury`;
+    const metaDesc = document.getElementById('cat-meta-description');
+    if (metaDesc) metaDesc.setAttribute("content", info.desc);
+
     try {
-        // --- CARICAMENTO DATI ---
-        // Se il file JSON è nella cartella superiore rispetto al JS usa './ricettario.json'
+        // --- 2. CARICAMENTO DATI ---
         const response = await fetch('ricettario.json');
-        if (!response.ok) throw new Error('File JSON non trovato');
+        if (!response.ok) throw new Error('Database non trovato');
 
         const data = await response.json();
         let ricetteMostrate = data.ricettario || [];
 
-        // --- LOGICA DI FILTRO (Il cuore del sistema) ---
-        // Se la chiave è 'all', saltiamo il filtro e mostriamo tutto
+        // Filtro
         if (key !== 'all') {
             ricetteMostrate = ricetteMostrate.filter(ricetta =>
                 ricetta.categoria.toLowerCase().includes(key)
             );
         }
 
-        // --- ORDINAMENTO ---
-        // Le più recenti per prime
+        // Ordinamento (ID decrescente = più recenti)
         ricetteMostrate.sort((a, b) => parseInt(b.id) - parseInt(a.id));
 
-        // --- RENDERING ---
+        // --- 3. RENDERING ---
         if (ricetteMostrate.length === 0) {
-            grid.innerHTML = `<div class="col-12 text-center py-5"><p>Nessuna ricetta trovata.</p></div>`;
+            grid.innerHTML = `
+                <div class="col-12 text-center py-5">
+                    <p class="recipe-concept">Nessuna ricetta disponibile in questa categoria.</p>
+                    <a href="categoria.html?type=all" class="read-more">MOSTRA TUTTE LE RICETTE</a>
+                </div>`;
             return;
         }
 
-        let html = "";
-        ricetteMostrate.forEach(ricetta => {
+        grid.innerHTML = ricetteMostrate.map(ricetta => {
             const pro = ricetta.macros_stimati?.proteine || '0g';
             const kcal = ricetta.macros_stimati?.kcal || '0';
             const carb = ricetta.macros_stimati?.carboidrati || '0g';
 
-            html += `
+            return `
             <div class="col-md-6 col-lg-4">
                 <div class="bedda-luxury-card">
                     <div class="image-wrapper">
-                        <img src="${ricetta.img || './img/placeholder.jpg'}" alt="${ricetta.titolo}">
+                        <img src="${ricetta.img || './img/placeholder.jpg'}" alt="${ricetta.titolo}" loading="lazy">
                         <div class="macro-overlay">
                             <div class="d-flex justify-content-around w-100">
                                 <div class="v-detail"><span>${pro}</span><small>PRO</small></div>
@@ -100,13 +101,11 @@ async function loadCategory() {
                     </div>
                 </div>
             </div>`;
-        });
-
-        grid.innerHTML = html;
+        }).join('');
 
     } catch (error) {
         console.error("Errore BeddaFit:", error);
-        if (grid) grid.innerHTML = `<p class="text-center">Errore nel caricamento delle ricette.</p>`;
+        grid.innerHTML = `<p class="text-center">Spiacenti, si è verificato un errore nel caricamento.</p>`;
     }
 }
 
