@@ -354,6 +354,41 @@
                 "LowFat",
                 "FoodGeometry"
             ]
+        },
+        {
+            "id": "11",
+            "titolo": "Eclissi di melanzana",
+            "subtitle": "L’architettura della melanzana tra stratificazione fondente e dualismo di datterini",
+            "categoria": "Secondi Gourmet",
+            "difficolta": "Media",
+            "img": "./img/eclissi_di_melanzana.webp",
+            "tempo_preparazione": "35 min",
+            "macros_stimati": {
+                "kcal": 218,
+                "proteine": "19g",
+                "carboidrati": "13g",
+                "grassi": "10g"
+            },
+            "concept": "La melanzana viene nobilitata, trasformandola in una base materica che accoglie la dolcezza pura dei pomodorini.",
+            "ingredienti": [
+                "1 Melanzana",
+                "120g di Datterini gialli",
+                "120g di Datterini rossi",
+                "100g di Formaggio proteico",
+                "20g di Parmigiano Reggiano 36 mesi",
+                "Sale q.b.",
+                "Basilico fresco per la decorazione"
+            ],
+            "procedimento": "L’INGEGNERIA DELLA MELANZANA: Taglia la melanzana a fette circolari spesse esattamente \"un dito\" (circa 1,5 - 2 cm). Posizionale nel cestello della friggitrice ad aria con un filo d’olio. Cuoci a 190°C per 14-16 minuti, girandole a metà cottura, finché l'interno non risulta fondente e l'esterno ambrato e strutturato. Adagia sopra ogni fetta il formaggio proteico. Inserisci nuovamente nel cestello (spento ma ancora caldo) per 2 minuti: il calore residuo scioglierà il formaggio rendendolo setoso senza bruciarne le proteine.\n\nIL LABORATORIO DELLE SALSE: Lavora i datterini separatamente per non contaminare i colori. Cuoci i gialli in un pentolino con un pizzico di sale e poca acqua; una volta appassiti, rimuovi le bucce. Ripeti l'operazione identica per i datterini rossi. La cottura in sola acqua concentra lo zucchero naturale del pomodoro senza aggiungere grassi.\n\nL’INTERFACCIA DEL PIATTO: Stendi sul fondo del piatto una base circolare con la salsa di datterini gialli. Posiziona al centro la torre di melanzana e formaggio. Completa la sommità con un cucchiaio generoso di riduzione rossa di datterino.\n\nIL TOCCO FINALE: Ultima con una pioggia sottile di Parmigiano Reggiano. Il calore della salsa rossa attiverà gli aromi del parmigiano, creando un profumo intenso che anticipa l'assaggio.",
+            "consiglio_beddafit": [
+                "Privare i pomodorini della buccia dopo la cottura rapida è il segreto per ottenere una salsa \"gourmet\" lucida e vellutata al palato, eliminando ogni traccia di acidità e fibra coriacea."
+            ],
+            "tags": [
+                "EggplantDesign",
+                "AirfryerGourmet",
+                "YellowTomato",
+                "FitGourmet"
+            ]
         }
     ]
 }
