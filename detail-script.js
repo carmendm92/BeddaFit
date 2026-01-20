@@ -48,7 +48,7 @@ async function loadRecipeDetail() {
 
         // --- 3. POPOLAMENTO IMMAGINE E HEADER ---
         setElementText('detail-title', ricetta.titolo);
-        setElementText('detail-concept', ricetta.concept);
+        setElementText('detail-subtitle', ricetta.subtitle);
 
         const recipeImg = document.getElementById('detail-img');
         if (recipeImg) {

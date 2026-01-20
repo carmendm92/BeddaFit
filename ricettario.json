@@ -359,7 +359,7 @@
             "id": "11",
             "titolo": "Eclissi di melanzana",
             "subtitle": "L’architettura della melanzana tra stratificazione fondente e dualismo di datterini",
-            "categoria": "Secondi Gourmet",
+            "categoria": "Secondi",
             "difficolta": "Media",
             "img": "./img/eclissi_di_melanzana.webp",
             "tempo_preparazione": "35 min",
@@ -388,6 +388,43 @@
                 "AirfryerGourmet",
                 "YellowTomato",
                 "FitGourmet"
+            ]
+        },
+        {
+            "id": "19",
+            "titolo": "Nidi di Patata Croccanti",
+            "subtitle": "L’architettura della patata tra scocca croccante e cuore vellutato di mare e terra",
+            "categoria": "Antipasti",
+            "difficolta": "Media",
+            "img": "./img/nidi_patata_gourmet.webp",
+            "tempo_preparazione": "45 min",
+            "macros_stimati": {
+                "kcal": 365,
+                "proteine": "22g",
+                "carboidrati": "42g",
+                "grassi": "13g"
+            },
+            "concept": "La patata bollita viene trasformata in un elemento architettonico rigido e materico grazie all'amido di mais, creando uno scrigno che protegge la freschezza degli ingredienti crudi.",
+            "ingredienti": [
+                "300g di Patate bollite",
+                "20g di Amido di mais",
+                "100g di Tonno al naturale",
+                "80g di Philadelphia Light",
+                "1/2 Avocado maturo",
+                "5 Pomodorini ciliegino",
+                "Scorza di limone bio q.b.",
+                "Glassa di Aceto Balsamico q.b.",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "L’INGEGNERIA DEL CESTINO: Schiaccia le patate bollite ancora calde e incorpora l’amido di mais con un pizzico di sale. Forma delle sfere da 50g e modella i bordi verso l’alto per creare dei nidi rustici. Nebulizza con olio EVO e cuoci in friggitrice ad aria a 200°C per 15-20 minuti, finché i bordi non risultano bruniti e la struttura ben vitrea.\n\nIL LABORATORIO DELLA MOUSSE: Lavora il tonno ben sgocciolato con la Philadelphia e una macinata di pepe. Ottieni una spuma compatta e vellutata. Questa base proteica fungerà da isolante termico tra la patata calda e il topping freddo.\n\nLA TARTARE CROMATICA: Taglia l’avocado e i pomodorini a cubetti millimetrici (brunoise). Condiscili in una ciotola con una goccia di limone per evitare l’ossidazione e mantenere i colori vibranti.\n\nL’INTERFACCIA DEL PIATTO: Posiziona i cestini caldi sul piatto. Riempi il cuore con la mousse di tonno utilizzando una sac-à-poche per la massima precisione. Adagia sopra la corona di avocado e pomodoro.\n\nIL TOCCO FINALE: Ultima con una grattugiata fine di scorza di limone e poche gocce calibrate di aceto balsamico. L’acidità del limone e la nota zuccherina del balsamico attiveranno le papille, bilanciando la dolcezza della patata.",
+            "consiglio_beddafit": [
+                "Non mescolare l’aceto balsamico alla tartare durante la preparazione: aggiungilo solo al momento del servizio. Questo accorgimento evita che l’acidità 'cuocia' visivamente l’avocado, mantenendo il verde brillante."
+            ],
+            "tags": [
+                "PotatoArchitecture",
+                "AirfryerGourmet",
+                "TunaMousse",
+                "FoodDesign"
             ]
         }
     ]
