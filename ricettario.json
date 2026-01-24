@@ -426,6 +426,42 @@
                 "TunaMousse",
                 "FoodDesign"
             ]
+        },
+        {
+            "id": "20",
+            "titolo": "Alchemy Fish & Chips",
+            "subtitle": "L’evoluzione del classico britannico: tempura glaciale e geometria di patate soffiate",
+            "categoria": "Secondi",
+            "difficolta": "Media",
+            "img": "./img/alchemy_fish_chips.webp",
+            "tempo_preparazione": "40 min",
+            "macros_stimati": {
+                "kcal": 396,
+                "proteine": "32g",
+                "carboidrati": "58g",
+                "grassi": "4g"
+            },
+            "concept": "Il filetto di merluzzo viene nobilitato dallo shock termico di una tempura ghiacciata alla farina di riso e acqua frizzante, affiancato da patate lavorate per ottenere una texture soffiata e una croccantezza materica.",
+            "ingredienti": [
+                "300g di Filetti di merluzzo",
+                "300g di Patate medie",
+                "80g di Farina di riso (60g pastella + 20g dusting)",
+                "100ml di Acqua frizzante (o birra analcolica) ghiacciata",
+                "1 pizzico di Bicarbonato",
+                "Scorza di lime bio",
+                "Olio EVO spray",
+                "Sale Maldon e Pepe nero"
+            ],
+            "procedimento": "L’INGEGNERIA DELLA PATATA SOFFIATA: Taglia le patate a cubetti, sbollentale per 5 min in acqua e aceto. Scolale e scuotile in pentola per creare una superficie 'graffiata' e irregolare. Spolvera con un velo di farina di riso e cuoci in Airfryer a 200°C con olio spray finché non risultano pepite dorate.\n\nIL LABORATORIO DELLA TEMPURA: In una ciotola gelida mescola 60g di farina di riso e bicarbonato con acqua frizzante ghiacciata a filo. Mantieni in freezer fino all'uso: lo shock termico è il segreto della leggerezza.\n\nIL TRATTAMENTO DEL FISH: Asciuga il merluzzo maniacalmente, effettua il dusting con la farina rimanente per far aderire la pastella, tuffa nella tempura e cuoci in Airfryer a 200°C per 10-12 min nebulizzando bene con olio spray.\n\nL’INTERFACCIA DEL PIATTO: Crea una piramide centrale con i cubetti di patata per dare verticalità. Adagia sopra il filetto di merluzzo e ultima con zeste di lime e sale Maldon per attivare le papille.",
+            "consiglio_beddafit": [
+                "L'uso dell'acqua frizzante ghiacciata appena stappata abbatte le calorie rispetto alla birra classica, garantendo però la stessa alveolatura grazie all'anidride carbonica che 'gonfia' la pastella in cottura."
+            ],
+            "tags": [
+                "AlchemyCooking",
+                "AirfryerGourmet",
+                "GlutenFreeCrunch",
+                "HighProtein"
+            ]
         }
     ]
 }
