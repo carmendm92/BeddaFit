@@ -462,6 +462,43 @@
                 "GlutenFreeCrunch",
                 "HighProtein"
             ]
+        },
+        {
+            "id": "21",
+            "titolo": "Monolite Filante",
+            "subtitle": "L’architettura del gusto: lingotto di bovino magro con cuore fondente e nido di carote acidulate",
+            "categoria": "Secondi",
+            "difficolta": "Media",
+            "img": "./img/polpettone_filante.webp",
+            "tempo_preparazione": "45 min",
+            "macros_stimati": {
+                "kcal": 411,
+                "proteine": "49g",
+                "carboidrati": "20g",
+                "grassi": "15g"
+            },
+            "concept": "Un classico della cucina domestica viene destrutturato e trasformato in un elemento architettonico. Il cuore di formaggio proteico crea un contrasto fluido con la compattezza del bovino, mentre il cavolfiore tostato aggiunge una texture 'sabbiosa' e croccante.",
+            "ingredienti": [
+                "250g di Macinato di bovino magro",
+                "1 Uovo",
+                "50g di Prosciutto crudo sgrassato",
+                "2-3 fette di Formaggio proteico",
+                "20g di Pan grattato",
+                "2 Carote",
+                "150g di Cime di cavolfiore",
+                "Olio EVO spray q.b.",
+                "Sale, Aceto e Glassa di aceto balsamico q.b."
+            ],
+            "procedimento": "L’INGEGNERIA DEL MONOLITE: In una bowl, unisci il macinato, l'uovo e il pan grattato. Lavora l'impasto finché non diventa plastico e omogeneo. Stendilo su un foglio di carta forno, farcisci con le fette di prosciutto sgrassato e il formaggio proteico. Arrotola con cura sigillando bene i bordi per proteggere il cuore filante.\n\nLA COTTURA STRUTTURALE: Cuoci il polpettone in Airfryer a 180°C per circa 25-30 minuti. Per gli ultimi minuti, nebulizza con una spruzzata di olio EVO per attivare la reazione di Maillard e ottenere una crosta brunita. Lascia riposare prima del taglio.\n\nIL LABORATORIO DELLE TEXTURE: Grattugia le cime di cavolfiore crudo. Tosta la granella in padella rovente con un pizzico di sale finché non risulta dorata e croccante.\n\nIL NIDO DI CAROTE: Ricava dei nastri sottili dalle carote con un pelapatate. Condiscili in una ciotola con olio, sale e aceto, disponendoli poi al centro del piatto a formare un nido arioso.\n\nL’INTERFACCIA DEL PIATTO: Taglia il polpettone a fette e adagiale sopra il nido di carote, lasciando che il formaggio proteico diventi il punto luce del piatto.\n\nIL TOCCO FINALE: Fai piovere il cavolfiore tostato sopra la composizione e decora il piatto con qualche goccia strategica di glassa di aceto balsamico per bilanciare la dolcezza della carota.",
+            "consiglio_beddafit": [
+                "Il riposo post-cottura è fondamentale: permette alle fibre della carne di trattenere i succhi e al formaggio di stabilizzarsi, garantendo un taglio netto che non compromette l'estetica del piatto."
+            ],
+            "tags": [
+                "ProteinPower",
+                "MeatloafGourmet",
+                "AirfryerChef",
+                "FoodDesign"
+            ]
         }
     ]
 }
