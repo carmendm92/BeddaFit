@@ -499,6 +499,40 @@
                 "AirfryerChef",
                 "FoodDesign"
             ]
+        },
+        {
+            "id": "22",
+            "titolo": "Sinergia Boreale",
+            "subtitle": "Contrasti materici tra salmone in crosta di pistacchi e velluto di cavolfiore",
+            "categoria": "Secondi",
+            "difficolta": "Bassa",
+            "img": "./img/sinergia_boreale.webp",
+            "tempo_preparazione": "30 min",
+            "macros_stimati": {
+                "kcal": 471,
+                "proteine": "37g",
+                "carboidrati": "10g",
+                "grassi": "31g"
+            },
+            "concept": "Un dialogo tra la sapidità ancestrale del mare e la dolcezza minerale della terra. Il salmone viene protetto da una corazza croccante di pistacchio, riposando su una base candida e setosa che ne esalta il profilo cromatico.",
+            "ingredienti": [
+                "2 Filetti di salmone (150g cad.)",
+                "1/2 Cavolfiore medio",
+                "30g di Granella di pistacchio (mix fine e grossa)",
+                "Scorza di 1 Limone bio",
+                "Olio EVO q.b.",
+                "Sale q.b."
+            ],
+            "procedimento": "IL LABORATORIO DEL CAVOLFIORE: Cuoci le cime del cavolfiore a vapore o sbollentale in acqua salata. Frullale con un mixer ad immersione aggiungendo acqua di cottura a filo fino a ottenere una vellutata liscia, densa e bianchissima.\n\nL’INGEGNERIA DELLA CROSTA: Mescola i due tipi di granella di pistacchio con la scorza di limone grattugiata per ottenere una texture dinamica.\n\nIL TRATTAMENTO DEL SALMONE: Asciuga i filetti e pressa il lato superiore nel mix di pistacchi. Cuoci in Airfryer a 180°C per 10-12 minuti, mantenendo il cuore succoso e la crosta tostata.\n\nL’INTERFACCIA DEL PIATTO: Stendi la vellutata di cavolfiore a specchio sul fondo del piatto. Adagia il filetto centralmente.\n\nIL TOCCO FINALE: Ultima con un giro d'olio EVO a crudo e una spolverata di granella grossa per esaltare il contrasto materico.",
+            "consiglio_beddafit": [
+                "La scorza di limone nella crosta è l'elemento acido essenziale per bilanciare la componente grassa del salmone e del pistacchio, pulendo il palato a ogni boccone."
+            ],
+            "tags": [
+                "Omega3Boost",
+                "PistacchioLover",
+                "FineDiningFit",
+                "AirfryerChef"
+            ]
         }
     ]
 }

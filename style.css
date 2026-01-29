@@ -95,6 +95,10 @@ body {
     background-color: transparent !important;
 }
 
+.navbar-toggler-icon {
+    filter: invert(74%) sepia(35%) saturate(450%) hue-rotate(50deg) brightness(95%) contrast(85%);
+}
+
 /* 3. HERO SECTION */
 .hero-section {
     padding-top: 120px;
