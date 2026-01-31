@@ -11,6 +11,14 @@
 
     html {
         scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+        -webkit-font-smoothing: antialiased;
+        /* Rende i font più nitidi su Retina */
+        -moz-osx-font-smoothing: grayscale;
     }
 }
 
@@ -248,6 +256,26 @@
     .recipe-meta-data {
         gap: 20px;
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .recipe-step-paragraph,
+    .ingredient-text {
+        font-weight: 400;
+        color: var(--color-antracite);
+    }
+
+    #cookie-banner,
+    .cookie-container {
+        opacity: 1 !important;
+        font-weight: 500 !important;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    .meta-item .label {
+        color: rgba(26, 26, 26, 0.8);
     }
 }
 
