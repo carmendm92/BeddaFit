@@ -17,7 +17,6 @@
 
     body {
         -webkit-font-smoothing: antialiased;
-        /* Rende i font più nitidi su Retina */
         -moz-osx-font-smoothing: grayscale;
     }
 }
@@ -262,8 +261,10 @@
 @media (max-width: 1024px) {
 
     .recipe-step-paragraph,
-    .ingredient-text {
-        font-weight: 400;
+    .ingredient-text,
+    #detail-tips {
+        font-family: var(--font-body);
+        font-weight: 400 !important;
         color: var(--color-antracite);
     }
 
@@ -272,6 +273,14 @@
         opacity: 1 !important;
         font-weight: 500 !important;
         -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    .meta-item .label {
+        color: rgba(26, 26, 26, 0.8);
+    }
+
+    #detail-tips {
+        opacity: 1;
     }
 
     .meta-item .label {
