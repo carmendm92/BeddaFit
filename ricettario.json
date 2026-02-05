@@ -533,6 +533,41 @@
                 "FineDiningFit",
                 "AirfryerChef"
             ]
+        },
+        {
+            "id": "23",
+            "titolo": "Radici e Fuoco",
+            "subtitle": "Polpo arrostito su carote fondenti all'agave e pomodorini confit",
+            "categoria": "Secondi",
+            "difficolta": "Bassa",
+            "img": "./img/polpo_e_carote.webp",
+            "tempo_preparazione": "55 min",
+            "macros_stimati": {
+                "kcal": 290,
+                "proteine": "38g",
+                "carboidrati": "16g",
+                "grassi": "8g"
+            },
+            "concept": "Un incontro primordiale tra mare e terra. Il polpo, con la sua consistenza tenace e croccante, si sposa con la dolcezza vellutata delle carote glassate all'agave. L'esplosione dei pomodorini confit chiude il cerchio, regalando una spinta acida che esalta ogni boccone.",
+            "ingredienti": [
+                "1 Polpo medio (circa 500g, precedentemente surgelato)",
+                "3 Carote medie intere",
+                "8 Pomodorini ciliegino",
+                "1 cucchiaino di Sciroppo d'agave",
+                "Scorza di 1 Limone bio",
+                "Olio EVO spray",
+                "Sale e Pepe q.b."
+            ],
+            "procedimento": "IL RITUALE DEL POLPO: Lessa il polpo in acqua bollente salata con mezzo limone per circa 40 minuti. Lascialo raffreddare completamente nella sua acqua di cottura: questo passaggio è fondamentale affinché la pelle rimanga ben salda ai tentacoli.\n\nL'EVOLUZIONE DELLE CAROTE: Pela le carote e cuocile in padella con un filo d’acqua per circa 10 minuti. Quando sono tenere, aggiungi lo sciroppo d'agave e alza la fiamma, facendole roteare finché non risultano perfettamente lucide e glassate.\n\nIL TRATTAMENTO CONFIT: Taglia i pomodorini a metà, condiscili con sale e pepe e passali in Airfryer a 170°C per circa 15 minuti, finché non risulteranno appassiti e il sapore si sarà concentrato.\n\nLA FINITURA AL FUOCO: Separa i tentacoli del polpo freddo e piastrali su una superficie rovente a fiamma altissima per ottenere ventose croccanti e un profumo intenso di arrostito.\n\nL'INTERFACCIA DEL PIATTO: Stendi le carote all'agave come base, adagia i tentacoli sopra di esse e distribuisci i pomodorini confit. Ultima con una generosa grattugiata di zest di limone fresco.",
+            "consiglio_beddafit": [
+                "Il raffreddamento lento nell'acqua di cottura non è solo una tradizione: è ingegneria gastronomica per garantire la tenuta della pelle e una morbidezza senza pari."
+            ],
+            "tags": [
+                "LeanProtein",
+                "AgaveGlazed",
+                "OctopusLover",
+                "AirfryerChef"
+            ]
         }
     ]
 }
