@@ -568,6 +568,43 @@
                 "OctopusLover",
                 "AirfryerChef"
             ]
+        },
+        {
+            "id": "25",
+            "titolo": "Equilibrio Orientale",
+            "subtitle": "Tagliata di tonno scottata su specchio d'arancia e soia con pioggia di pistacchi tostati",
+            "categoria": "Secondi",
+            "difficolta": "Bassa",
+            "img": "./img/equilibrio_orientale.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 330,
+                "proteine": "40g",
+                "carboidrati": "12g",
+                "grassi": "12g"
+            },
+            "concept": "Un piatto che gioca con le temperature e le consistenze. Il calore del tonno, appena scottato e velato di farina, incontra la freschezza della base agrumata. La granella di pistacchio, tostata a secco per sprigionare gli oli essenziali, completa l'esperienza sensoriale aggiungendo una nota tostata e croccante.",
+            "ingredienti": [
+                "2 Tranci di tonno fresco (circa 180-200g l'uno)",
+                "30g di Granella di pistacchio",
+                "1 Finocchio grande",
+                "1 Arancia",
+                "1 cucchiaino di Miele o sciroppo d'agave",
+                "1 cucchiaino di Salsa di soia",
+                "1 cucchiaino di Amido di mais",
+                "Farina q.b. per la velatura",
+                "Olio EVO spray, sale e pepe q.b."
+            ],
+            "procedimento": "L’INTERFACCIA AGRUMATA: In un pentolino, unisci il succo d'arancia, il miele e la salsa di soia. Sciogli l'amido di mais in poca acqua fredda, aggiungilo al mix e cuoci a fuoco lento finché non ottieni una consistenza densa e specchiata.\n\nIL CRUNCH DI PISTACCHIO: Scalda una padella rovente e tosta la granella di pistacchio per soli 30 secondi. Questo flash termico esalta i profumi senza alterare le proprietà nutritive.\n\nIL TRATTAMENTO DEL TONNO: Tampona i tranci e passali velocemente nella farina eliminando l'eccesso. Scotta su piastra rovente per 1-2 minuti per lato: l'esterno deve essere dorato e il cuore rosso vivo.\n\nL’INGEGNERIA DELLA TAGLIATA: Lascia riposare il tonno per 30 secondi, poi taglialo a fette regolari seguendo la fibra.\n\nL’INTERFACCIA DEL PIATTO: Versa la riduzione d'arancia sul fondo del piatto creando uno specchio uniforme. Adagia sopra la tagliata di tonno e versa a pioggia la granella di pistacchio tostata. Accompagna lateralmente con l'insalatina di finocchio e arancia pelata a vivo.",
+            "consiglio_beddafit": [
+                "Usare la salsa come base permette alla crosticina di farina del tonno di rimanere croccante nella parte superiore, mentre la parte inferiore si insaporisce armoniosamente a contatto con la riduzione."
+            ],
+            "tags": [
+                "HighProtein",
+                "Omega3",
+                "OrientalTouch",
+                "TunaLover"
+            ]
         }
     ]
 }
