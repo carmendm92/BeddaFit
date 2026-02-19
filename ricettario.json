@@ -605,6 +605,41 @@
                 "OrientalTouch",
                 "TunaLover"
             ]
+        },
+        {
+            "id": "26",
+            "titolo": "Essenza Bianca",
+            "subtitle": "Muffin di cavolfiore e pepe nero con topping di pomodoro e pennellata di balsamico",
+            "categoria": "Secondi Vegetariani / Finger Food",
+            "difficolta": "Media",
+            "img": "./img/muffin_di_cavolfiore.webp",
+            "tempo_preparazione": "35 min",
+            "macros_stimati": {
+                "kcal": 230,
+                "proteine": "12g",
+                "carboidrati": "20g",
+                "grassi": "10g"
+            },
+            "concept": "Un esercizio di design e leggerezza. Il cavolfiore viene decostruito e ricomposto in eleganti monoporzioni dal cuore morbido e la superficie crunchy. Il pomodoro fresco, lavorato in concasse, corona ogni muffin, mentre la pennellata di glassa di aceto balsamico aggiunge profondità aromatica e un tratto grafico deciso.",
+            "ingredienti": [
+                "1 Cavolfiore medio (circa 400g di cimette)",
+                "1 Uovo grande",
+                "15g di Pan grattato",
+                "300g di Pomodori Piccadilly o Ciliegino",
+                "1 spicchio d’Aglio",
+                "Glassa di aceto balsamico q.b.",
+                "Olio EVO spray, sale e abbondante pepe nero"
+            ],
+            "procedimento": "LA BASE MUFFIN: Frulla le cimette di cavolfiore a crudo fino a ottenere una granella fine. Unisci l'uovo, il pan grattato, il sale e una generosa dose di pepe nero. Mescola finché il composto non risulta omogeneo.\n\nIL TRATTAMENTO AIRFRYER: Ungi leggermente gli stampini, riempili con il composto. Cuoci a 180°C per 15-18 minuti fino a doratura.\n\nL’ORO ROSSO (CONCASSE): Incidi i pomodori a croce, sbollentali 30 secondi e passali in acqua e ghiaccio. Pelali, elimina i semi e taglia la polpa a cubetti. Saltali in padella con aglio e olio spray finché non otterrai una composta densa e lucida.\n\nL'INTERFACCIA GRAFICA: Con un pennello da cucina, tira una linea decisa di glassa di aceto balsamico sul fondo del piatto.\n\nCOMPOSIZIONE MATERICA: Posiziona i muffin sul piatto. Adagia su ogni muffin una cucchiaiata di ristretto di pomodoro fresco.\n\nIL TOCCO FINALE: Chiudi con una spolverata di pepe nero macinato grosso.",
+            "consiglio_beddafit": [
+                "La pennellata di balsamico non è solo estetica: la sua acidità bilancia la dolcezza del cavolfiore. Assicurati che la polpa di pomodoro sia ben ristretta per mantenere la verticalità del topping."
+            ],
+            "tags": [
+                "DesignFood",
+                "VegetarianPower",
+                "AirfryerRecipe",
+                "CleanEating"
+            ]
         }
     ]
 }
