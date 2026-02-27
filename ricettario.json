@@ -640,6 +640,40 @@
                 "AirfryerRecipe",
                 "CleanEating"
             ]
+        },
+        {
+            "id": "28",
+            "titolo": "Geometria Citrica",
+            "subtitle": "Tronchetti di zucchina con cuore di ricotta proteica e crunch agrumato",
+            "categoria": "Secondi",
+            "difficolta": "Media",
+            "img": "./img/zucchine_gratinate.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 195,
+                "proteine": "16g",
+                "carboidrati": "14g",
+                "grassi": "8g"
+            },
+            "concept": "Un piatto che celebra il recupero creativo e la precisione tecnica. La zucchina viene decostruita attraverso una sbollentata rapida e svuotata per accogliere una farsa proteica setosa, arricchita dalla sua stessa polpa. Il contrasto termico e materico è garantito dal topping in panko dorato, dove la scorza di limone funge da ponte aromatico tra la dolcezza della ricotta e la freschezza vegetale.",
+            "ingredienti": [
+                "2 Zucchine medie",
+                "200g di Ricotta Proteica",
+                "30g di Panko (o pan grattato a grana grossa)",
+                "1 Limone",
+                "Glassa di aceto balsamico q.b.",
+                "Olio EVO spray, sale e pepe nero"
+            ],
+            "procedimento": "LA STRUTTURA: Taglia le zucchine a tronchetti cilindrici regolari. Sbollentali in acqua salata per 4-5 minuti per ammorbidire le fibre senza sfaldarle. Passali immediatamente in acqua e ghiaccio.\n\nL’INGEGNERIA DEL VUOTO: Con un levatorsoli, scava ogni tronchetto lasciando un fondo solido di mezzo centimetro. Trita finemente la polpa estratta, strizzala per eliminare l'acqua in eccesso e tienila da parte.\n\nIL CUORE PROTEICO: In una ciotola, unisci la polpa, la ricotta proteica, il succo di mezzo limone e parte della scorza. Regola di sale e pepe nero, lavorando fino a ottenere una crema densa. Farcisci i tronchetti.\n\nIL TRATTAMENTO CRUNCH: Condisci il panko con sale, pepe e la restante scorza di limone. Adagia il mix sulla sommità di ogni tronchetto, pressando leggermente per creare un cappello uniforme.\n\nCOTTURA AIRFRYER: olio spray e cuoci a 190°C per 8-10 minuti, finché la crosticina non risulta bionda e croccante.\n\nCOMPOSIZIONE MATERICA: Posiziona i tronchetti simmetricamente su un piatto piano bianco largo. Completa con tre gocce di riduzione di balsamico o una pennellata laterale per aggiungere profondità grafica.",
+            "consiglio_beddafit": [
+                "La sbollentata preventiva è il segreto tecnico per una consistenza uniforme: evita che la zucchina rimanga coriacea mentre il topping dora."
+            ],
+            "tags": [
+                "HighProtein",
+                "LemonZest",
+                "AirfryerRecipe",
+                "CleanEating"
+            ]
         }
     ]
 }
