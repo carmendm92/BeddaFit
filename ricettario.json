@@ -674,6 +674,78 @@
                 "AirfryerRecipe",
                 "CleanEating"
             ]
+        },
+        {
+            "id": "29",
+            "titolo": "Inversione Dorata",
+            "subtitle": "Tarte tatin di cipolle dorate, balsamico e feta greca",
+            "categoria": "Antipasti",
+            "difficolta": "Media",
+            "img": "./img/tarte_tatin_cipolle.webp",
+            "tempo_preparazione": "40 min",
+            "macros_stimati": {
+                "kcal": "185",
+                "proteine": "5g",
+                "carboidrati": "21g",
+                "grassi": "9g"
+            },
+            "concept": "Un gioco di prospettive dove l'umile cipolla dorata diventa protagonista assoluta. La tecnica della cottura 'al contrario' permette agli zuccheri della cipolla di fondersi con l'aceto balsamico, creando una glassatura naturale e profonda. La base di sfoglia light garantisce la croccantezza necessaria senza eccedere nei grassi, mentre la feta sbriciolata a freddo aggiunge una nota di freschezza e sapidità che bilancia il piatto.",
+            "ingredienti": [
+                "4 Cipolle dorate grandi (dello stesso diametro)",
+                "1 Rotolo di pasta sfoglia light (tondo)",
+                "80g di Feta greca",
+                "Glassa di aceto balsamico q.b.",
+                "Olio EVO spray",
+                "Sale e Pepe nero macinato grosso"
+            ],
+            "procedimento": "L'ARCHITETTURA DEL FONDO: Rivesti una teglia tonda (diametro 22-24cm) con carta forno. Copri il fondo con un velo d'olio spray, una spirale generosa di glassa al balsamico e un pizzico di sale.\n\nIL CUORE DORATO: Taglia le cipolle a fette regolari di 1,5 cm. Disponile sul fondo della teglia partendo dal centro e procedendo verso i bordi, incastrandole bene tra loro affinché non restino spazi vuoti.\n\nLA COPERTURA: Adagia l'intero disco di pasta sfoglia light sopra le cipolle. Rimbocca accuratamente i bordi della pasta all'interno della teglia, creando un 'muretto' che contenga i succhi durante la cottura.\n\nLA TRASFORMAZIONE: Inforna a 200°C per 25-30 minuti. La sfoglia deve risultare gonfia e di un dorato profondo.\n\nL'INVERSIONE: Sforna e, con un movimento deciso, capovolgi la tartina sul piatto da portata mentre è ancora calda, in modo che il caramello al balsamico nappe perfettamente la cipolla.\n\nCOMPOSIZIONE MATERICA: Sbriciola la feta su tutta la superficie mentre la torta è ancora calda. Chiudi con una pioggia abbondante di pepe nero macinato grosso per rompere la dolcezza del caramello.",
+            "consiglio_beddafit": [
+                "La precisione nel taglio della cipolla (1,5 cm) è fondamentale: uno spessore minore la farebbe sparire in cottura, uno maggiore non permetterebbe una caramellizzazione uniforme. La feta aggiunta 'fuoco spento' mantiene la sua consistenza gessosa, creando un contrasto termico e materico vincente."
+            ],
+            "tags": [
+                "TarteTatin",
+                "SharingIsCaring",
+                "OnionDesign",
+                "GourmetLight"
+            ]
+        },
+        {
+            "id": "30",
+            "titolo": "Contrasto Vitale",
+            "subtitle": "Crumble di scottona croccante su vellutata di carote e zenzero con feta e pepe nero",
+            "categoria": "Secondi",
+            "difficolta": "Facile",
+            "img": "./img/crumble_scottona_carote.webp",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 285,
+                "proteine": "28g",
+                "carboidrati": "15g",
+                "grassi": "11g"
+            },
+            "concept": "La carota viene trasformata in una base fluida e profumata allo zenzero senza l'aggiunta di grassi, mentre il maxi hamburger di scottona viene 'decostruito' e reso croccante attraverso una tecnica di asciugatura post-cottura. La sapidità minerale della feta sbriciolata a freddo e la spinta dello zenzero elevano il profilo aromatico senza pesare sui macro.",
+            "ingredienti": [
+                "1 Maxi Hamburger di scottona (250-300g)",
+                "400g di Carote (circa 5-6 medie)",
+                "40g di Feta greca",
+                "1 pezzetto di Zenzero fresco",
+                "Sale Maldon e Pepe nero q.b.",
+                "Rosmarino fresco"
+            ],
+            "procedimento": "LA BASE CROMATICA: Taglia le carote a rondelle sottili e bollile per 10 minuti. Frullale solo con un po' della loro acqua e lo zenzero grattugiato fino a ottenere una seta arancione vibrante.\n\nTECNICA DEL CRUNCH: Sgrana l'hamburger con le mani e saltalo in padella antiaderente rovente con il rosmarino. Una volta ben brunita, trasferisci la carne su carta assorbente e tamponala bene per eliminare ogni residuo di grasso: questo la renderà incredibilmente asciutta e croccante.\n\nCOMPOSIZIONE MATERICA: Versa la vellutata a specchio sul fondo di una fondina. Adagia al centro il crumble di scottona asciugato creando volume, sbriciola la feta sopra la carne e chiudi con una pioggia generosa di pepe nero macinato grosso.",
+            "consiglio_beddafit": [
+                "Il passaggio sulla carta assorbente è il segreto per trasformare la carne da 'cotta in padella' a 'crumble croccante'. Meno grassi, più texture."
+            ],
+            "tags": [
+                "beddafit",
+                "ricettafit",
+                "scottona",
+                "gourmet",
+                "gourmetfit",
+                "cleaneating",
+                "proteinrich",
+                "zerooil"
+            ]
         }
     ]
 }
