@@ -746,6 +746,84 @@
                 "proteinrich",
                 "zerooil"
             ]
+        },
+        {
+            "id": "34",
+            "titolo": "Guscio Botanico",
+            "subtitle": "Cilindri di cetriolo con mousse proteica di tonno, patata, yogurt e pistacchio",
+            "categoria": "Secondi",
+            "difficolta": "Media",
+            "img": "./img/cetriolo_ripieno.webp",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 245,
+                "proteine": "20g",
+                "carboidrati": "16g",
+                "grassi": "11g"
+            },
+            "concept": "Il cetriolo viene elevato da semplice ortaggio a guscio strutturale, svuotato per accogliere una mousse vellutata di tonno e patata bollita. Lo yogurt greco sostituisce i grassi aggiunti garantendo la quota acida, mentre lo zenzero fresco e la granella di pistacchio creano un contrasto aromatico e materico di alto livello su una base minimalista bianca.",
+            "ingredienti": [
+                "1 Cetriolo grande",
+                "100g di Tonno al naturale (sgocciolato)",
+                "100g di Patata bollita",
+                "80g di Yogurt Greco 0%",
+                "20g di Granella di pistacchio",
+                "Zenzero fresco e Limone (scorza)",
+                "Basilico e Menta fresca",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "L'INGEGNERIA DEL VUOTO: Taglia il cetriolo a cilindri regolari di circa 5 cm. Scavali internamente con uno scavino, lasciando una parete sottile (circa 3-4 mm) per bilanciare il crunch con la morbidezza del ripieno. Tampona l'interno con carta assorbente per eliminare l'umidità residua.\n\nIL CUORE PROTEICO: Frulla insieme il tonno, la patata, lo yogurt greco, lo zenzero e il basilico. Devi ottenere una mousse densa e stabile, capace di reggere la forma a 'cupola'.\n\nLA FARCITURA: Trasferisci la mousse in una sac-à-poche e riempi i gusci botanici fino al bordo, creando una leggera curvatura superiore. Ricopri la sommità con una dose generosa di granella di pistacchio.\n\nCOMPOSIZIONE GRAFICA: Disponi i cilindri in verticale su un piatto piano bianco. Crea dei 'drops' decorativi con la mousse avanzata per dare dinamismo e profondità al piatto. Scorza di limone grattugiata al momento e una fogliolina di menta per la nota balsamica.",
+            "consiglio_beddafit": [
+                "Lo spessore della parete è il segreto tecnico: scava il cetriolo finché non è quasi trasparente per permettere alla mousse di dominare l'esperienza gustativa senza la resistenza eccessiva della fibra vegetale."
+            ],
+            "tags": [
+                "beddafit",
+                "gusciobotanico",
+                "highprotein",
+                "tunalove",
+                "gourmetfit",
+                "cleanfood",
+                "lowcarb",
+                "zerooil"
+            ]
+        },
+        {
+            "id": "35",
+            "titolo": "Vertigine di Clorofilla",
+            "subtitle": "Spaghetti in crema di spinaci e ricotta proteica con nido di chips di patata dolce",
+            "categoria": "Primi",
+            "difficolta": "Facile",
+            "img": "./img/spaghetti_spinaci_e_ricotta.webp",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 445,
+                "proteine": "20g",
+                "carboidrati": "73g",
+                "grassi": "8g"
+            },
+            "concept": "Un primo piatto che punta sulla densità cromatica e nutritiva. Gli spinaci, legati dalla ricotta proteica, avvolgono la pasta in una crema setosa, contrastata dalla verticalità croccante e dalla dolcezza terrosa delle chips di patata dolce realizzate in Airfryer.",
+            "ingredienti": [
+                "160g di Spaghetti",
+                "250g di Spinaci",
+                "100g di Ricotta Proteica",
+                "1 Patata dolce media (per le chips)",
+                "Olio EVO spray",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "L'ESSENZA VERDE: Cuoci gli spinaci in padella con pochissima acqua finché non appassiscono. Scolali e strizzali con estrema cura per eliminare ogni residuo liquido. Frullali insieme alla ricotta proteica fino a ottenere una crema densa e uniforme, regolando la fluidità solo con un goccio di acqua di cottura della pasta.\n\nINGEGNERIA DEL CRUNCH: Grattugia la patata dolce a fiammifero. Sciacquale bene per togliere l'amido superficiale ed evitare che brucino, asciugale perfettamente, spruzzale con olio EVO e cuocile in friggitrice ad aria a 190°C finché non diventano dorate.\n\nALCHIMIA IN PADELLA: Cuoci gli spaghetti al dente. Trasferiscili nella padella con la crema di spinaci e finisci la cottura saltandoli con un mestolo di acqua di cottura per creare l'emulsione perfetta.\n\nCOMPOSIZIONE GRAFICA: Crea un nido compatto al centro di un piatto bianco piano. Adagia sulla sommità il nido di chips di patata dolce per dare verticalità. Un giro di pepe nero macinato fresco per bilanciare la dolcezza naturale.",
+            "consiglio_beddafit": [
+                "La patata dolce tende a bruciare più velocemente della classica: sciacquarla e asciugarla bene è il segreto tecnico per un crunch perfetto senza retrogusto amaro. La ricotta proteica garantisce cremosità a zero grassi aggiunti."
+            ],
+            "tags": [
+                "beddafit",
+                "vertiginediclorofilla",
+                "highprotein",
+                "sweetpotato",
+                "gourmetfit",
+                "cleaneating",
+                "airfryerhacks",
+                "fooddesign"
+            ]
         }
     ]
 }
