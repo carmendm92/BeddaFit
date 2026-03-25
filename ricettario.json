@@ -824,6 +824,45 @@
                 "airfryerhacks",
                 "fooddesign"
             ]
+        },
+        {
+            "id": "36",
+            "titolo": "Radura Salina",
+            "subtitle": "Spaghetti al merluzzo con limone e pistacchio tostato",
+            "categoria": "Primi",
+            "difficolta": "Facile",
+            "img": "./img/spaghetti_merluzzo.webp",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 465,
+                "proteine": "30g",
+                "carboidrati": "65g",
+                "grassi": "8.5g"
+            },
+            "concept": "Un'opera di ingegneria gastronomica che eleva il merluzzo attraverso la tecnica confit al naturale. La dolcezza della cipolla appassita in acqua e l'acidità del limone creano un'emulsione molecolare con l'amido della pasta, eliminando la necessità di grassi aggiunti. Il pistacchio tostato definisce la struttura materica del piatto.",
+            "ingredienti": [
+                "160g di Spaghetti",
+                "200g di Filetto di Merluzzo",
+                "30g di Pistacchi (granella)",
+                "1 Cipolla bionda piccola",
+                "Succo e scorza di 1 Limone",
+                "Menta fresca",
+                "Sale q.b."
+            ],
+            "procedimento": "L'ESSENZA DOLCE: Affetta la cipolla sottilissima e falla appassire in una padella con un mestolo di acqua di cottura. Deve caramellare dolcemente, diventando trasparente, senza l'uso di olio.\n\nIL TRATTAMENTO CONFIT AL NATURALE: Taglia il merluzzo a cubotti regolari. Adagialo sulla base di cipolla, aggiungi il succo di limone e cuoci a fiamma bassissima per pochi minuti: deve restare sodo e perlato. Contemporaneamente, tosta la granella di pistacchio a secco in un padellino.\n\nALCHIMIA IN PADELLA: Cuoci gli spaghetti al dente. Trasferiscili nella padella con il fondo di cipolla e limone. Salta energicamente con acqua di cottura per estrarre l'amido e creare l'emulsione setosa. Solo alla fine, incorpora i cubotti di merluzzo con estrema delicatezza.\n\nCOMPOSIZIONE GRAFICA: Crea un nido compatto al centro del piatto. Ricopri la sommità con la granella di pistacchio tostato, la scorza di limone grattugiata e una fogliolina di menta per la nota balsamica.",
+            "consiglio_beddafit": [
+                "La tecnica al naturale richiede pazienza: la cipolla caramellata con l'acqua di cottura crea la base dolce che bilancia l'acidità del limone. Mantecare energicamente gli spaghetti prima di aggiungere il merluzzo garantisce la cremosità a zero grassi aggiunti."
+            ],
+            "tags": [
+                "beddafit",
+                "radurasalina",
+                "highprotein",
+                "merluzzogourmet",
+                "zerograssi",
+                "cleaneating",
+                "foodengineering",
+                "pistacchiolovers"
+            ]
         }
     ]
 }
