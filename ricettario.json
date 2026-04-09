@@ -863,6 +863,44 @@
                 "foodengineering",
                 "pistacchiolovers"
             ]
+        },
+        {
+            "id": "37",
+            "titolo": "Orizzonte Dolce",
+            "subtitle": "Cuori di nasello su vellutata di patata dolce, granella di pistacchio e menta",
+            "categoria": "Secondi",
+            "difficolta": "Facile",
+            "img": "./img/cuori_nasello_patata_dolce.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 330,
+                "proteine": "31g",
+                "carboidrati": "40g",
+                "grassi": "5g"
+            },
+            "concept": "Un piatto che celebra il minimalismo e l'equilibrio dei sapori. La vellutata di patata dolce funge da specchio caldo e avvolgente per il nasello, cotto al naturale per preservarne la purezza strutturale. La granella di pistacchio aggiunge la nota croccante e minerale, mentre la menta fresca regala un'improvvisa spinta balsamica.",
+            "ingredienti": [
+                "300g di Cuori di Nasello",
+                "400g di Patata dolce",
+                "30g di Pistacchi (granella)",
+                "Foglioline di menta fresca",
+                "Sale q.b.",
+                "Acqua di cottura (per la vellutata)"
+            ],
+            "procedimento": "L'ARCHITETTURA DELLA VELLUTATA: Pela le patate dolci e tagliale a cubetti. Cuocile a vapore o bollite con pochissima acqua finché non diventano tenere. Frullale con un pizzico di sale e l'acqua di cottura necessaria a ottenere una crema liscissima e densa.\n\nPUREZZA DEL NASELLO: Cuoci i cuori di nasello in una padella antiaderente ben calda (tecnica dry) o al vapore per circa 3-4 minuti per lato, finché non risultano opachi e compatti. Tosta la granella di pistacchio a secco per 2 minuti per esaltarne la croccantezza.\n\nALCHIMIA DEL PIATTO: Distribuisci la vellutata di patata dolce sul fondo di un piatto piano creando uno 'specchio' circolare perfetto.\n\nCOMPOSIZIONE MATERICA: Adagia con cura i filetti di nasello sulla crema. Ricopri la sommità con la granella di pistacchio tostato e rifinisci con le foglioline di menta fresca per la nota aromatica finale.",
+            "consiglio_beddafit": [
+                "La vellutata deve essere abbastanza densa da sostenere il peso del pesce senza che questo affondi: aggiungi l'acqua di cottura poco alla volta. Passare la crema al setaccio garantisce una texture professionale da vero ristorante gourmet."
+            ],
+            "tags": [
+                "beddafit",
+                "orizzontedolce",
+                "highprotein",
+                "nasellogourmet",
+                "sweetpotato",
+                "cleaneating",
+                "fitgourmet",
+                "fooddesign"
+            ]
         }
     ]
 }
