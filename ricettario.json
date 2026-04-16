@@ -901,6 +901,43 @@
                 "fitgourmet",
                 "fooddesign"
             ]
+        },
+        {
+            "id": "38",
+            "titolo": "Risveglio nel prato",
+            "subtitle": "Gnocchi dorati su vellutata di zucchine al parmigiano",
+            "categoria": "Primi",
+            "difficolta": "Facile",
+            "img": "./img/gnocchi_zucchine_parmigiano.webp",
+            "tempo_preparazione": "20 min",
+            "macros_stimati": {
+                "kcal": 290,
+                "proteine": "13g",
+                "carboidrati": "44g",
+                "grassi": "7g"
+            },
+            "concept": "Un piatto che trasforma dei semplici gnocchi di patate in un’esperienza gastronomica d'avanguardia. La zucchina viene emulsionata con il parmigiano per ottenere una base setosa, sapida e vibrante, che accoglie gli gnocchi rifiniti con tecnica di doratura dry.",
+            "ingredienti": [
+                "250g di Gnocchi di patate",
+                "3 Zucchine medie",
+                "40g di Parmigiano Reggiano",
+                "Menta fresca",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "L'ANIMA VERDE: Taglia due zucchine a cubetti e cuocile in padella con pochissima acqua finché non sono tenere. Frullale con 30g di parmigiano, qualche foglia di menta fresca, sale e un goccio di acqua di cottura fino a ottenere una vellutata liscissima e densa.\n\nINGEGNERIA DEL CRUNCH: Taglia la terza zucchina a rondelle sottilissime. Tostale in una padella antiaderente ben calda senza grassi finché non risultano dorate e croccanti. Tienile da parte.\n\nDORATURA DEGLI GNOCCHI: Tuffa gli gnocchi direttamente in padella con un mestolino d'acqua. Copri con un coperchio per 2 minuti, poi togli il coperchio e lasciali sfrigolare a fiamma vivace finché non si forma una crosticina dorata.\n\nCOMPOSIZIONE MATERICA: Distribuisci la crema di zucchine al parmigiano sul fondo del piatto. Adagia con cura gli gnocchi dorati e le zucchine croccanti. Rifinisci con i restanti 10g di petali di parmigiano e una spolverata di pepe nero.",
+            "consiglio_beddafit": [
+                "Aggiungere il parmigiano mentre frulli le zucchine calde crea un'emulsione naturale che rende la crema incredibilmente vellutata senza bisogno di panna o burro. Passare al setaccio per un risultato da ristorante stellato."
+            ],
+            "tags": [
+                "beddafit",
+                "sinergiaverde",
+                "vegetarian",
+                "gnocchigourmet",
+                "zucchine",
+                "fitgourmet",
+                "highprotein",
+                "cleaneating"
+            ]
         }
     ]
 }
