@@ -938,6 +938,45 @@
                 "highprotein",
                 "cleaneating"
             ]
+        },
+        {
+            "id": "39",
+            "titolo": "Rosso su Fumé",
+            "subtitle": "Spaghetto integrale su vellutata di melanzana e cuore di pomodoro",
+            "categoria": "Primi",
+            "difficolta": "Media",
+            "img": "./img/rosso_su_fume_spaghetti.webp",
+            "tempo_preparazione": "35 min",
+            "macros_stimati": {
+                "kcal": 425,
+                "proteine": "28g",
+                "carboidrati": "64g",
+                "grassi": "9g"
+            },
+            "concept": "Un piatto che eleva la semplicità a forma d’arte, celebrando i sapori del sud con tecnica moderna. La polpa della melanzana, arrostita intera per preservarne l'essenza fumé, viene emulsionata con il formaggio proteico per una cremosità avvolgente. Il rosso del pomodoro non è solo un accento visivo ma una spinta acida che taglia la dolcezza della melanzana, mentre il Parmigiano a cubetti sigilla il piatto con la sua sapidità decisa.",
+            "ingredienti": [
+                "160g di Spaghetto integrale",
+                "1 Melanzana grande",
+                "4 Pomodori ramati",
+                "2 Fette di formaggio proteico",
+                "20g di Parmigiano Reggiano (a cubetti)",
+                "Basilico fresco",
+                "Sale q.b."
+            ],
+            "procedimento": "L'ANIMA FUMÉ: Bucherella la melanzana e cuocila intera in friggitrice ad aria a 200°C per 25 minuti. Estrai la polpa e frullala ancora calda con le fette di formaggio proteico e un pizzico di sale fino a ottenere una vellutata densa, legata e priva di impurità.\n\nL'ESSENZA ROSSA: Cuoci i pomodori in padella finché non si sfaldano, poi frullali e passali al setaccio. Devi ottenere una salsa liscissima e lucida, da stendere come uno 'specchio' uniforme sul fondo del piatto.\n\nLA MANTECATURA: Scola gli spaghetti al dente e saltali in padella con la crema di melanzana e un mestolino di acqua di cottura, finché la pasta non è perfettamente avvolta dalla crema.\n\nCOMPOSIZIONE MATERICA: Adagia gli spaghetti in modo lineare, lasciandoli 'coricare' morbidamente sul piatto. Rifinisci versando la salsa di pomodoro sulla parte centrale della pasta. Completa con i cubetti di Parmigiano Reggiano e foglie di basilico fresco.",
+            "consiglio_beddafit": [
+                "Cuocere la melanzana intera è il segreto per ottenere quel sapore 'barbecue' senza l'utilizzo di grassi. L'uso del Parmigiano a cubetti garantisce un'esplosione di sapidità distinta che contrasta con la dolcezza vellutata della base, elevando l'esperienza al palato a un livello superiore."
+            ],
+            "tags": [
+                "beddafit",
+                "rossosufume",
+                "fitgourmet",
+                "highprotein",
+                "spaghettointegrale",
+                "melanzanafumé",
+                "minimalplating",
+                "fooddesign"
+            ]
         }
     ]
 }
