@@ -977,6 +977,44 @@
                 "minimalplating",
                 "fooddesign"
             ]
+        },
+        {
+            "id": "40",
+            "titolo": "Terrazza di Melanzana",
+            "subtitle": "Torretta di cous cous al brodo vegetale, tacchino e petali di pomodoro",
+            "categoria": "Primi",
+            "difficolta": "Facile",
+            "img": "./img/terrazza_melanzana_couscous.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 290,
+                "proteine": "18g",
+                "carboidrati": "52g",
+                "grassi": "2g"
+            },
+            "concept": "Un'architettura culinaria che trasforma ingredienti semplici in un'esperienza visiva e gustativa. La base è costituita da una fetta spessa di melanzana arrostita in modalità dry, che fa da fondamenta calde a un cous cous sgranato cotto per assorbimento in un profumato brodo vegetale. La freschezza del pomodoro a fette sottili e la sapidità delicata dell’affettato di tacchino completano un piatto unico leggero, bilanciato e dal design moderno.",
+            "ingredienti": [
+                "1 Melanzana tonda (circa 80-100g di fette spesse)",
+                "120g di Cous cous",
+                "Brodo vegetale circa 150-180ml",
+                "100g di Affettato di tacchino",
+                "1-2 Pomodori ramati",
+                "Foglioline di menta fresca",
+                "Sale q.b."
+            ],
+            "procedimento": "LA BASE DRY: Prendi le fette spesse di melanzana, incidi leggermente la superficie a griglia e cuocile in friggitrice ad aria a 200°C per circa 15-18 minuti, finché non sono dorate fuori e teneri al cuore.\n\nASSORBIMENTO E PROFUMO: Prepara il cous cous cuocendolo per assorbimento con il brodo vegetale bollente. Lascialo riposare coperto per 5 minuti, poi sgranalo delicatamente con una forchetta. Taglia i pomodori a fette molto sottili e tieni pronte le fette di affettato di tacchino ripiegate con cura per dare volume.\n\nCOMPOSIZIONE MATERICA: Posiziona una fetta di melanzana arrostita al centro di ogni piatto. Adagia sopra una fetta di pomodoro e metà dell’affettato di tacchino. Utilizza un coppapasta per pressare delicatamente il cous cous sopra lo strato proteico, creando una sezione pulita e lineare. Chiudi ogni torretta con un’ultima fetta di pomodoro fresco. Rifinisci con un germoglio di menta fresca sulla sommità di ciascuna torretta per dare verticalità e una nota aromatica immediata.",
+            "consiglio_beddafit": [
+                "Cucinare il cous cous nel brodo vegetale invece della semplice acqua è il segreto tecnico per dare profondità al sapore senza aggiungere grassi. Pressare leggermente il cous cous nel coppapasta garantisce la stabilità necessaria per una presentazione da ristorante stellato."
+            ],
+            "tags": [
+                "beddafit",
+                "terrazzadimelanzana",
+                "highprotein",
+                "couscousgourmet",
+                "fitgourmet",
+                "minimalplating",
+                "fooddesign"
+            ]
         }
     ]
 }
