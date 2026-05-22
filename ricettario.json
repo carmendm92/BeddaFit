@@ -1015,6 +1015,44 @@
                 "minimalplating",
                 "fooddesign"
             ]
+        },
+        {
+            "id": "41",
+            "titolo": "Piramide di Raviole Flash",
+            "subtitle": "Sfoglia leggera con cuore di ricotta all'agave, cacao e smeraldo di pistacchio",
+            "categoria": "Dolci",
+            "difficolta": "Facile",
+            "img": "./img/piramide_raviole_ricotta.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 310,
+                "proteine": "14g",
+                "carboidrati": "32g",
+                "grassi": "12g"
+            },
+            "concept": "Un dessert che gioca sui contrasti termici e materici, dimostrando che l'alta pasticceria può essere leggera e funzionale. La croccantezza friabile della pasta sfoglia light racchiude un cuore vellutato di ricotta proteica, setacciata e addolcita naturalmente con lo sciroppo d'agave. La nota amara del cacao crea un bilanciamento perfetto sul piatto, mentre la granella di pistacchio sigilla il dolce con un accento cromatico e croccante.",
+            "ingredienti": [
+                "1 Rotolo di pasta sfoglia leggera (rettangolare)",
+                "200g di Ricotta proteica",
+                "20g di Sciroppo d'agave",
+                "Cacao amaro in polvere q.b.",
+                "10g di Granella di pistacchio",
+                "Latte q.b."
+            ],
+            "procedimento": "L'ALCHIMIA DOLCE: In una ciotola, passa al setaccio la ricotta proteica per renderla liscissima e priva di grumi. Unisci lo sciroppo d'agave e lavora il composto con una spatola fino a ottenere una crema lucida, setosa e perfettamente vellutata.\n\nINGEGNERIA DELLA SFOGLIA: Stendi la pasta sfoglia leggera e ricava dei quadrati uguali. Posiziona al centro di ciascun quadrato una generosa cucchiaiata di crema di ricotta. Inumidisci leggermente i bordi con un goccio di latte, ripiega la sfoglia a triangolo per formare le raviole e sigilla bene i bordi premendo con i rebbi di una forchetta. Trasferisci in friggitrice ad aria e cuoci a 190°C per circa 10-12 minuti, o finché non risulterà gonfia e dorata.\n\nCOMPOSIZIONE MATERICA: Prendi un piatto piano scuro. Crea una struttura verticale a piramide sovrapponendo tre raviole intere. Taglia la quarta raviola perfettamente a metà per mostrare la perfezione del cuore cremoso e adagiala sulla sommità. Spolvera l'intera struttura e la base del piatto con un velo geometrico di cacao amaro. Rifinisci la cima della piramide con la granella di pistacchio per dare un punto luce brillante.",
+            "consiglio_beddafit": [
+                "Setacciare la ricotta quando è fredda di frigorifero è il segreto tecnico fondamentale per ottenere quella consistenza 'pomata' da pasticceria, senza dover aggiungere panne o addensanti. Per una sfoglia ancora più leggera e croccante, pratica due micro-tagli sulla superficie della raviola prima di infornare per far uscire il vapore in eccesso."
+            ],
+            "tags": [
+                "beddafit",
+                "piramidediraviole",
+                "highprotein",
+                "fitpasticceria",
+                "ricottaproteica",
+                "airfryerdessert",
+                "fooddesign",
+                "minimalplating"
+            ]
         }
     ]
 }

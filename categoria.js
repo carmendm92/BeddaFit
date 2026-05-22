@@ -19,6 +19,11 @@ const infoCategorie = {
         subtitle: "GEOMETRIE VEGETALI",
         desc: "L'estetica del mondo vegetale. Contrasti di texture per elevare ogni composizione."
     },
+    "dolci": {
+        title: "DOLCI",
+        subtitle: "STRUTTURE DI PIACERE",
+        desc: "Pasticceria funzionale e forme geometriche. Il bilanciamento perfetto tra estetica e nutrizione per chiudere il cerchio."
+    },
     "all": {
         title: "IL RICETTARIO",
         subtitle: "L'ARCHIVIO",
