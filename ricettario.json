@@ -1053,6 +1053,46 @@
                 "fooddesign",
                 "minimalplating"
             ]
+        },
+        {
+            "id": "42",
+            "titolo": "Lasagna Fillo",
+            "subtitle": "Strati croccanti di pasta fillo con zucchine dry, tacchino e cuore cremoso",
+            "categoria": "Secondi",
+            "difficolta": "Facile",
+            "img": "./img/lasagna_fillo_zucchine.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 270,
+                "proteine": "23.5g",
+                "carboidrati": "18.5g",
+                "grassi": "11g"
+            },
+            "concept": "Una reinterpretazione moderna della lasagna tradizionale. Fogli sovrapposti di pasta fillo racchiudono un ripieno morbido e saporito, creando un contrasto netto tra la cremosità interna e la croccantezza estrema della superficie.",
+            "ingredienti": [
+                "4-6 Fogli di pasta fillo",
+                "2 Zucchine medie",
+                "150g di Philadelphia light",
+                "100g di Affettato di tacchino",
+                "20g di Parmigiano Reggiano",
+                "Latte q.b.",
+                "Olio EVO spray",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "PREPARAZIONE DELLE ZUCCHINE: Taglia le zucchine a fette sottili. Spruzzale con un velo leggero di olio EVO spray, regola di sale e cuocile in friggitrice ad aria a 190°C per circa 10-12 minuti, finché non risulteranno dorate e asciutte. Tieni da parte.\n\nLA CREMA E LA SFOGLIA: In una ciotola, lavora la Philadelphia light con un goccio di latte per renderla fluida e facilmente spalmabile, poi regola di pepe nero. Prendi una pirofila rotonda adatta all'Airfryer e spruzza la base con l'olio spray.\n\nLA STRATIFICAZIONE: Adagia il primo foglio di pasta fillo, sfioralo appena con un velo di latte e sovrapponi il secondo foglio. Stendi una base di crema di Philadelphia, distribuisci le fette di zucchina cotte, una spolverata di parmigiano grattugiato e uno strato di tacchino. Ripeti l'operazione accoppiando i fogli a due a due per 4 strati totali.\n\nIL SIGILLO E LA COTTURA: Chiudi l'ultimo strato arricciando i bordi della pasta fillo verso l'interno. Spruzza la superficie con un velo leggero di olio EVO spray e rifinisci con l'ultimo pizzico di parmigiano. Cuoci in friggitrice ad aria a 180°C per 15-18 minuti, finché la superficie non risulta gonfia e dorata. Lascia riposare fuori dall'Airfryer per 5 minuti.\n\nCOMPOSIZIONE MATERICA: Con un coltello ben affilato, taglia una fetta triangolare netta per mettere in evidenza la stratificazione interna e la corona croccante superiore. Adagia la fetta al centro di un grande piatto piano bianco lucido e rifinisci la composizione creando una pioggia diffusa e geometrica di pepe nero macinato fresco su tutta la base del piatto.",
+            "consiglio_beddafit": [
+                "Accoppiare i fogli di pasta fillo a due a due, sfiorandoli appena con un goccio di latte, permette al foglio a contatto con il ripieno di rimanere morbido come una lasagna e a quello interno di restare tenace e sfogliato. Fondamentale il riposo di 5 minuti post-cottura per far assestare la Philadelphia e ottenere un taglio netto e fotografico."
+            ],
+            "tags": [
+                "beddafit",
+                "fillolasagna",
+                "lasagnadifillo",
+                "airfryerrecipes",
+                "highprotein",
+                "fitgourmet",
+                "fooddesign",
+                "cleanfood"
+            ]
         }
     ]
 }
