@@ -1093,6 +1093,48 @@
                 "fooddesign",
                 "cleanfood"
             ]
+        },
+        {
+            "id": "43",
+            "titolo": "Nido Integrale di Pomodoro e Zucchine",
+            "subtitle": "Spaghetti integrali con salsa di pomodorini freschi, parmigiano e zucchine leggere",
+            "categoria": "Primi",
+            "difficolta": "Facile",
+            "img": "./img/nido_integrale_pomodoro_zucchine.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 342,
+                "proteine": "15.5g",
+                "carboidrati": "60.5g",
+                "grassi": "5.2g"
+            },
+            "concept": "Un'architettura culinaria che dimostra come un grande classico estivo possa trasformarsi in un modulo nutrizionale perfetto. I pomodorini freschi, semplicemente schiacciati e privati delle impurità, creano una salsa densa e avvolgente che sposa la consistenza rustica dello spaghetto integrale. Le zucchine, cotte in modalità dry per simulare la frittura tradizionale in chiave light, completano il piatto con un contrasto leggero e saporito.",
+            "ingredienti": [
+                "160g di Spaghetti integrali",
+                "300g di Pomodorini freschi",
+                "2 Zucchine medie",
+                "1 Spicchio d'aglio intero",
+                "Una punta di bicarbonato di sodio",
+                "4-5 Foglie di basilico fresco",
+                "Parmigiano Reggiano q.b.",
+                "Olio EVO spray",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "L'ALCHIMIA DEL POMODORO: Lava e taglia i pomodorini a metà. In una padella, fai rosolare lo spicchio d'aglio intero con un velo di olio spray. Aggiungi i pomodorini, un pizzico di sale e un goccio d'acqua. Copri e lascia cucinare a fuoco dolce finché non saranno completamente morbidi, poi schiacciali accuratamente con una forchetta per estrarre tutta la polpa. Rimuovi l'aglio.\n\nIL SEGRETO DELLA SALSA: Passa il composto ottenuto attraverso un colino a maglie strette direttamente nella padella pulita per eliminare bucce e semi. Aggiungi una punta di bicarbonato per correggere l'acidità e due foglie di basilico spezzettate a mano.\n\nLA CONSISTENZA DELLE ZUCCHINE: Taglia le zucchine a fette sottili. Spruzzale con un velo di olio spray e cuocile in friggitrice ad aria a 190°C per circa 10-12 minuti finché non saranno dorate e asciutte. Una volta pronte, spezzettale grossolanamente con le mani e tienile da parte.\n\nL'INTEGRAZIONE E LA MANTECATURA: Cuoci gli spaghetti integrali in abbondante acqua salata e scolali molto al dente. Trasferiscili direttamente nella padella con la salsa di pomodoro calda e un mestolo d'acqua di cottura. Una volta cotti, unisci le zucchine precedentemente cotte in Airfryer e una spolverata di parmigiano grattugiato. Mescola vigorosamente finché la pasta non sarà perfettamente legata, creando un fondo cremoso e avvolgente.\n\nCOMPOSIZIONE MATERICA: Con l'aiuto di una pinza e un mestolo, crea un nido compatto di spaghetti e adagialo al centro del piatto. Rifinisci con un'altra spolverata leggera di parmigiano reggiano e decora la sommità con due foglie fresche di basilico intere.",
+            "consiglio_beddafit": [
+                "L'uso della punta di bicarbonato è il vero segreto tecnico per neutralizzare l'acidità naturale dei pomodorini freschi in modo chimicamente perfetto, evitando di aggiungere lo zucchero (che altererebbe i macro e il profilo fit del piatto). Ricorda inoltre di aggiungere le zucchine air-fried solo alla fine: in questo modo manterranno la loro consistenza leggermente croccante senza assorbire troppa umidità dal sugo."
+            ],
+            "tags": [
+                "beddafit",
+                "spaghettiintegrali",
+                "pomodorofresco",
+                "zucchineairfried",
+                "airfryerrecipes",
+                "highprotein",
+                "fitgourmet",
+                "fooddesign",
+                "minimalplating"
+            ]
         }
     ]
 }
