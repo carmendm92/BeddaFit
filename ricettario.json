@@ -1135,6 +1135,51 @@
                 "fooddesign",
                 "minimalplating"
             ]
+        },
+        {
+            "id": "44",
+            "titolo": "Medaglioni di Melanzana in Crosta",
+            "subtitle": "Dischi di melanzana grigliati e dorati in Airfryer con salsa di pomodori freschi, fesa di tacchino e perle di feta",
+            "categoria": "Secondi",
+            "difficolta": "Facile",
+            "img": "./img/medaglioni_melanzana_crosta.webp",
+            "tempo_preparazione": "25 min",
+            "macros_stimati": {
+                "kcal": 218,
+                "proteine": "19.5g",
+                "carboidrati": "18g",
+                "grassi": "6.8g"
+            },
+            "concept": "La melanzana viene isolata e valorizzata attraverso una doppia cottura. La salsa di pomodori freschi, accoglie il drappeggio di fesa di tacchino e le note sapide della feta per completare la stratificazione materica.",
+            "ingredienti": [
+                "1 Melanzana tonda grande",
+                "300g di Pomodori freschi",
+                "120g di Fesa di tacchino a fette sottili",
+                "40g di Feta greca light",
+                "20g di Philadelphia light",
+                "Latte q.b.",
+                "30g di Pangrattato",
+                "2 Spicchi d'aglio interi",
+                "Una punta di bicarbonato di sodio",
+                "4-5 Foglie di basilico fresco",
+                "Olio EVO spray",
+                "Sale e Pepe nero q.b."
+            ],
+            "procedimento": "LA STRUTTURA DELLA MELANZANA: Lava la melanzana e tagliala a fette spesse circa 1,5 cm per ottenere dei dischi regolari e compatti. Scalda molto bene una piastra o una padella antiaderente e griglia le fette di melanzana un paio di minuti per lato, giusto il tempo di ammorbidirle leggermente e sigillarle senza cuocerle del tutto. Regola di sale.\n\nL'EMULSIONE E LA CROSTA GOLD: In un piatto fondo, lavora la Philadelphia light con un goccio di latte fino a ottenere una pastella liquida e omogenea. Passa i dischi di melanzana grigliati prima in questa emulsione fluida e subito dopo nel pangrattato, premendo leggermente per creare una copertura uniforme su tutta la superficie.\n\nLA DORATURA IN AIRFRYER: Disponi i medaglioni impanati nel cestello della friggitrice ad aria, spruzzali con un velo leggero di olio EVO spray e cuocili a 190°C per circa 10-12 minuti, girandoli a metà cottura, finché la crosta non risulterà perfettamente dorata e croccante.\n\nL'ALCHIMIA DEL POMODORO FRESCO: In un pentolino, unisci i pomodori tagliati a metà, uno spicchio d'aglio intero e un pizzico di sale. Aggiungi un goccio d'acqua, copri e lascia cucinare a fuoco dolce finché non saranno completamente morbidi. Rimuovi lo spicchio d'aglio e le bucce dei pomodori, quindi schiaccia accuratamente la polpa con una forchetta direttamente nel pentolino. Unisci le foglie di basilico fresco spezzettate a mano, regola di sale e aggiungi un pizzico di bicarbonato per neutralizzare l'acidità naturale, mescolando fino a ottenere una salsa rustica e vellutata.\n\nLA STRATIFICAZIONE E COMPOSIZIONE MATERICA: Sforna i medaglioni di melanzana ancora caldi. Distribuisci al centro di ogni disco un cucchiaio generoso della salsa di pomodoro fresco calda. Piega le fette di fesa di tacchino creandone un nido compatto e adagialo sopra la salsa, lasciando ben visibili i bordi croccanti della melanzana. Disponi i medaglioni in modo simmetrico su un piatto piano. Sbriciola la feta greca in modo preciso e controllato esclusivamente sulla sommità del tacchino. Rifinisci il piatto con una macinata di pepe nero fresco e un velo leggero di olio spray a crudo.",
+            "consiglio_beddafit": [
+                "La tecnica della pre-cottura sulla piastra elimina l'umidità interna della melanzana, mentre l'emulsione di Philadelphia e latte sostituisce magistralmente l'uovo nella panatura: questo non solo abbatte i grassi e le calorie, ma dona una spinta di cremosità nascosta che contrasta con la croccantezza esterna del pangrattato. Inoltre, posizionare la feta solo sulla sommità preserva la pulizia visiva del piatto, esaltando la stratificazione cromatica."
+            ],
+            "tags": [
+                "beddafit",
+                "medaglionidimelanzana",
+                "melanzanecroccanti",
+                "airfryerrecipes",
+                "highprotein",
+                "fitgourmet",
+                "fooddesign",
+                "minimalplating",
+                "cleanfood"
+            ]
         }
     ]
 }
